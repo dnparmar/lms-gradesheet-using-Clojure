@@ -1,0 +1,26 @@
+{
+	"title": "Quiz 4",
+	"exam-version": "0.1",
+	"exam-number": "4",
+	"program": [{
+		"q": "Write a clojure function that calculates the minimum value of a collection.",
+		"l": "p1",
+		"t": "textarea"
+	}],
+	"questions": [{
+		"q": "Which reggae singing star died 11th May 1981?",
+		"c": ["Bob Marley", "Peter Tosh", "Jimmy Cliff", "Gregory Issacs"],
+		"a": "Bob Marley",
+		"l": "q1"
+	}, {
+		"q": "Which vegetable grows best in Idaho, Washington, Maine, and Wisconsin?",
+		"c": ["cabbage", "broccoli", "potato", "tomato"],
+		"a": "potato",
+		"l": "q2"
+	}, {
+		"q": "What's the capital of Denmark?",
+		"c": ["Venice", "Prague", "Vienna", "Copenhagen"],
+		"a": "Copenhagen",
+		"l": "q3"
+	}]
+}

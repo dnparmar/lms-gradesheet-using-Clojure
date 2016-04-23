@@ -1,0 +1,26 @@
+{
+	"title": "Quiz 2",
+	"exam-version": "0.1",
+	"exam-number": "2",
+	"program": [{
+		"q": "Write a clojure function that calculates the minimum value of a collection.",
+		"l": "p1",
+		"t": "textarea"
+	}],
+	"questions": [{
+		"q": "What is capital of india",
+		"c": ["New Delhi", "Mumbai", "Chandigarh", "Ahmedabad"],
+		"a": "New Delhi",
+		"l": "q1"
+	}, {
+		"q": "What is the letter between the letters \"b\" and \"d\"?",
+		"c": ["a", "b", "c", "d"],
+		"a": "c",
+		"l": "q2"
+	}, {
+		"q": "How do you determine if empty?",
+		"c": ["empty?", "null?", "map", "reduce"],
+		"a": "empty?",
+		"l": "q3"
+	}]
+}

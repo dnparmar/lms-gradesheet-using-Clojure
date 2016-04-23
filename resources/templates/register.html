@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" class="welcome">
+  <head>
+    <title>Welcome to CS590</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  </head>
+  <body>
+      <div align="middle">
+      <h2>Register for an lms account here</h2></br>
+      <h3><a href="/">Home</a></br>
+    {{error}}</br>
+
+    <form id="eval-form" method="post" action="/register">
+        Username: <input id="user-id" type="text" name="username" /><br/>
+        <span id="user-result"></span><br/>
+        Password: <input id="pass-id" type="password" name="password" /><br/>
+        <span id="pass-result"></span><br/>
+        <input id="registerbutton" type="submit" value="Register" />
+        <span id="register-result"></span><br/>
+    </form>
+    </div>
+
+    <script src="/js/client.js" language="javascript"></script>
+    <script type="text/javascript" language="javascript">
+      lms.cljs.register.main()
+    </script>
+  </body>
+</html>

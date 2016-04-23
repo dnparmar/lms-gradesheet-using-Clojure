@@ -1,0 +1,28 @@
+<h1>{{title}}</h1>
+<hr/>
+<form id="form">
+    <input type="hidden" name=exam-number value="{{exam-number}}"/>
+    <ol>
+        {% for question in questions %}
+        <li>{{ question.q }} <br/>
+            <ul>
+                {% for x in question.c }}
+                <input type=radio name="{{question.l}}" value="{{x}}"> {{x}} <br/>
+                {% endfor %}
+            </ul> </li> <br/>
+        {% endfor %}
+    </ol>
+     Name: &nbsp; <input type=text name=name value='' />&nbsp;
+     CIN: &nbsp; <input type=text name=cin value='' />&nbsp;
+    <input id="quiz" type="button" onclick="lms.cljs.quiz.form()" name="getgrades" value="getgrades"/></br>
+    <h3><span id="grades"></span></h3>
+</form>
+
+ <script src="/js/client.js" language="javascript"></script>
+    <script type="text/javascript" language="javascript">
+     lms.cljs.quiz.main()
+     </script>
+<hr/>
+
+<p>Pedestal LMS version: 0.0.7 </p>
+

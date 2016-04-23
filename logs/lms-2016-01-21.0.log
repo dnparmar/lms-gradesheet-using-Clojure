@@ -1,0 +1,138 @@
+22:22:58.597 [main] INFO  org.eclipse.jetty.util.log - Logging initialized @14321ms
+22:22:58.780 [main] INFO  org.eclipse.jetty.server.Server - jetty-9.3.1.v20150714
+22:22:58.815 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@94170d6{/,null,AVAILABLE}
+22:22:58.845 [main] INFO  o.e.jetty.server.ServerConnector - Started ServerConnector@67ac1be1{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+22:22:58.845 [main] INFO  org.eclipse.jetty.server.Server - Started @14572ms
+22:23:12.754 [qtp598709333-19] INFO  io.pedestal.http - {:line 78, :msg "GET /"}
+22:23:12.891 [qtp598709333-21] INFO  io.pedestal.http - {:line 78, :msg "GET /images/image1.jpg"}
+22:23:13.045 [qtp598709333-22] INFO  io.pedestal.http - {:line 78, :msg "GET /favicon.ico"}
+22:23:18.260 [qtp598709333-23] INFO  io.pedestal.http - {:line 78, :msg "GET /login"}
+22:23:24.102 [qtp598709333-16] INFO  io.pedestal.http - {:line 78, :msg "POST /login"}
+22:23:27.142 [qtp598709333-19] INFO  io.pedestal.http - {:line 78, :msg "GET /"}
+22:23:28.207 [qtp598709333-22] INFO  io.pedestal.http - {:line 78, :msg "GET /register"}
+22:23:28.257 [qtp598709333-23] INFO  io.pedestal.http - {:line 78, :msg "GET /js/client.js"}
+22:23:29.748 [qtp598709333-20] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-user"}
+22:23:30.322 [qtp598709333-17] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-user"}
+22:23:30.616 [qtp598709333-16] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-user"}
+22:23:30.854 [qtp598709333-19] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-pass"}
+22:23:33.471 [qtp598709333-22] INFO  io.pedestal.http - {:line 78, :msg "GET /"}
+22:23:34.626 [qtp598709333-23] INFO  io.pedestal.http - {:line 78, :msg "GET /login"}
+22:23:41.784 [qtp598709333-20] INFO  io.pedestal.http - {:line 78, :msg "POST /login"}
+22:23:41.989 [qtp598709333-17] INFO  io.pedestal.http - {:line 78, :msg "GET /home"}
+22:23:47.627 [qtp598709333-16] INFO  io.pedestal.http - {:line 78, :msg "POST /home/showquiz"}
+22:24:11.915 [qtp598709333-19] INFO  io.pedestal.http - {:line 78, :msg "POST /home/submit-grades"}
+22:24:11.954 [qtp598709333-19] ERROR i.p.http.impl.servlet-interceptor - {:line 304, :msg "error-ring-response triggered", :context {:response nil, :request {:cookies {"ring-session" {:value "BbcH7e5oDK39NMjLOi2bqmEauSCODyUuGC0ISlhknVU=--wce0ulH6fs6ccu/MhMuLbj++cfysukBsVUFsw4FSNW8="}}, :io.pedestal.http.impl.servlet-interceptor/async-supported? true, :remote-addr "0:0:0:0:0:0:0:1", :servlet-context #object[org.eclipse.jetty.servlet.ServletContextHandler$Context 0x53438027 "ServletContext@o.e.j.s.ServletContextHandler@94170d6{/,null,AVAILABLE}"], :servlet-response #object[org.eclipse.jetty.server.Response 0x1f9180e2 "HTTP/1.1 200 \nDate: Fri, 22 Jan 2016 06:24:11 GMT\r\n\r\n"], :servlet-path "", :servlet #object[io.pedestal.http.servlet.FnServlet 0x26fd4451 "io.pedestal.http.servlet.FnServlet@26fd4451"], :headers {"origin" "http://localhost:8080", "host" "localhost:8080", "user-agent" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.111 Safari/537.36", "content-type" "application/x-www-form-urlencoded;charset=UTF-8", "cookie" "ring-session=BbcH7e5oDK39NMjLOi2bqmEauSCODyUuGC0ISlhknVU%3D--wce0ulH6fs6ccu%2FMhMuLbj%2B%2BcfysukBsVUFsw4FSNW8%3D", "content-length" 209, "referer" "http://localhost:8080/home", "connection" "keep-alive", "accept" "*/*", "accept-language" "en-US,en;q=0.8", "accept-encoding" "gzip, deflate"}, :server-port 8080, :servlet-request #object[org.eclipse.jetty.server.Request 0x77e3d8fe "(POST //localhost:8080/home/submit-grades)@2011420926 org.eclipse.jetty.server.Request@77e3d8fe"], :content-length 209, :session/key "BbcH7e5oDK39NMjLOi2bqmEauSCODyUuGC0ISlhknVU=--wce0ulH6fs6ccu/MhMuLbj++cfysukBsVUFsw4FSNW8=", :io.pedestal.http.impl.servlet-interceptor/protocol "HTTP/1.1", :content-type "application/x-www-form-urlencoded;charset=UTF-8", :path-info "/home/submit-grades", :character-encoding "utf-8", :url-for #object[io.pedestal.http.route$url_for_routes$fn__7901 0x32c7bca1 "io.pedestal.http.route$url_for_routes$fn__7901@32c7bca1"], :uri "/home/submit-grades", :server-name "localhost", :query-string nil, :path-params {}, :body #object[org.eclipse.jetty.server.HttpInputOverHTTP 0xc8689ff "org.eclipse.jetty.server.HttpInputOverHTTP@c8689ff"], :scheme :http, :request-method :post, :context-path "", :session {:name "dhruv"}}, :bindings {#'io.pedestal.http.route/*url-for* #object[io.pedestal.http.route$url_for_routes$fn__7901 0x32c7bca1 "io.pedestal.http.route$url_for_routes$fn__7901@32c7bca1"]}, :enter-async [#object[io.pedestal.http.impl.servlet_interceptor$start_servlet_async 0x20dc66ae "io.pedestal.http.impl.servlet_interceptor$start_servlet_async@20dc66ae"]], :servlet-response #object[org.eclipse.jetty.server.Response 0x1f9180e2 "HTTP/1.1 200 \nDate: Fri, 22 Jan 2016 06:24:11 GMT\r\n\r\n"], :route {:path-parts ["home" "submit-grades"], :path-params {}, :interceptors [#io.pedestal.interceptor.Interceptor{:name :io.pedestal.http.ring-middlewares/session, :enter #object[io.pedestal.http.ring_middlewares$session$fn__9341 0x6a32648c "io.pedestal.http.ring_middlewares$session$fn__9341@6a32648c"], :leave #object[io.pedestal.http.ring_middlewares$response_fn_adapter$fn__9296 0x5090e142 "io.pedestal.http.ring_middlewares$response_fn_adapter$fn__9296@5090e142"], :error nil} #io.pedestal.interceptor.Interceptor{:name :lms.service/submit-grades, :enter #object[io.pedestal.interceptor$eval7351$fn__7352$fn__7353 0x7016a205 "io.pedestal.interceptor$eval7351$fn__7352$fn__7353@7016a205"], :leave nil, :error nil}], :path "/home/submit-grades", :method :post, :path-re #"/\Qhome\E/\Qsubmit-grades\E", :route-name :lms.service/submit-grades, :io.pedestal.http.route.prefix-tree/satisfies-constraints? #object[clojure.core$constantly$fn__4383 0x338ba080 "clojure.core$constantly$fn__4383@338ba080"]}, :servlet #object[io.pedestal.http.servlet.FnServlet 0x26fd4451 "io.pedestal.http.servlet.FnServlet@26fd4451"], :servlet-request #object[org.eclipse.jetty.server.Request 0x77e3d8fe "(POST //localhost:8080/home/submit-grades)@2011420926 org.eclipse.jetty.server.Request@77e3d8fe"], :io.pedestal.impl.interceptor/terminators (#object[io.pedestal.http.impl.servlet_interceptor$terminator_inject$fn__9785 0x275b79a9 "io.pedestal.http.impl.servlet_interceptor$terminator_inject$fn__9785@275b79a9"]), :io.pedestal.impl.interceptor/execution-id 18, :url-for #object[io.pedestal.http.route$url_for_routes$fn__7901 0x32c7bca1 "io.pedestal.http.route$url_for_routes$fn__7901@32c7bca1"], :servlet-config #object[org.eclipse.jetty.servlet.ServletHolder$Config 0x66dd4035 "org.eclipse.jetty.servlet.ServletHolder$Config@66dd4035"], :io.pedestal.impl.interceptor/stack (#io.pedestal.interceptor.Interceptor{:name :io.pedestal.http.impl.servlet-interceptor/stylobate, :enter #object[io.pedestal.http.impl.servlet_interceptor$enter_stylobate 0xe7821d "io.pedestal.http.impl.servlet_interceptor$enter_stylobate@e7821d"], :leave #object[io.pedestal.http.impl.servlet_interceptor$leave_stylobate 0x7150ad4e "io.pedestal.http.impl.servlet_interceptor$leave_stylobate@7150ad4e"], :error #object[io.pedestal.http.impl.servlet_interceptor$error_stylobate 0x68d213ad "io.pedestal.http.impl.servlet_interceptor$error_stylobate@68d213ad"]} #io.pedestal.interceptor.Interceptor{:name :io.pedestal.http.impl.servlet-interceptor/terminator-injector, :enter #object[io.pedestal.interceptor.helpers$before$fn__7420 0x6554443a "io.pedestal.interceptor.helpers$before$fn__7420@6554443a"], :leave nil, :error nil})}}
+clojure.lang.ExceptionInfo: Interceptor Exception: Wrong number of args (2) passed to: service/calculation
+	at clojure.core$ex_info.invoke(core.clj:4593) ~[clojure-1.7.0.jar:na]
+	at io.pedestal.impl.interceptor$throwable__GT_ex_info.invoke(interceptor.clj:31) ~[na:na]
+	at io.pedestal.impl.interceptor$try_f.invoke(interceptor.clj:53) ~[na:na]
+	at io.pedestal.impl.interceptor$enter_all_with_binding.invoke(interceptor.clj:141) ~[na:na]
+	at io.pedestal.impl.interceptor$enter_all$fn__7240.invoke(interceptor.clj:156) ~[na:na]
+	at clojure.lang.AFn.applyToHelper(AFn.java:152) ~[clojure-1.7.0.jar:na]
+	at clojure.lang.AFn.applyTo(AFn.java:144) ~[clojure-1.7.0.jar:na]
+	at clojure.core$apply.invoke(core.clj:630) ~[clojure-1.7.0.jar:na]
+	at clojure.core$with_bindings_STAR_.doInvoke(core.clj:1868) ~[clojure-1.7.0.jar:na]
+	at clojure.lang.RestFn.invoke(RestFn.java:425) ~[clojure-1.7.0.jar:na]
+	at io.pedestal.impl.interceptor$enter_all.invoke(interceptor.clj:154) ~[na:na]
+	at io.pedestal.impl.interceptor$execute.invoke(interceptor.clj:272) [na:na]
+	at io.pedestal.http.impl.servlet_interceptor$interceptor_service_fn$fn__9806.invoke(servlet_interceptor.clj:398) [na:na]
+	at io.pedestal.http.servlet.FnServlet.service(servlet.clj:28) [na:na]
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:816) [jetty-servlet-9.3.1.v20150714.jar:9.3.1.v20150714]
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:583) [jetty-servlet-9.3.1.v20150714.jar:9.3.1.v20150714]
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1113) [jetty-server-9.3.1.v20150714.jar:9.3.1.v20150714]
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:511) [jetty-servlet-9.3.1.v20150714.jar:9.3.1.v20150714]
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1047) [jetty-server-9.3.1.v20150714.jar:9.3.1.v20150714]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141) [jetty-server-9.3.1.v20150714.jar:9.3.1.v20150714]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:119) [jetty-server-9.3.1.v20150714.jar:9.3.1.v20150714]
+	at org.eclipse.jetty.server.Server.handle(Server.java:517) [jetty-server-9.3.1.v20150714.jar:9.3.1.v20150714]
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:302) [jetty-server-9.3.1.v20150714.jar:9.3.1.v20150714]
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:242) [jetty-server-9.3.1.v20150714.jar:9.3.1.v20150714]
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:238) [jetty-io-9.3.1.v20150714.jar:9.3.1.v20150714]
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:95) [jetty-io-9.3.1.v20150714.jar:9.3.1.v20150714]
+	at org.eclipse.jetty.io.SelectChannelEndPoint$2.run(SelectChannelEndPoint.java:57) [jetty-io-9.3.1.v20150714.jar:9.3.1.v20150714]
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.produceAndRun(ExecuteProduceConsume.java:213) [jetty-util-9.3.1.v20150714.jar:9.3.1.v20150714]
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.run(ExecuteProduceConsume.java:147) [jetty-util-9.3.1.v20150714.jar:9.3.1.v20150714]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:654) [jetty-util-9.3.1.v20150714.jar:9.3.1.v20150714]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:572) [jetty-util-9.3.1.v20150714.jar:9.3.1.v20150714]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_20]
+Caused by: clojure.lang.ArityException: Wrong number of args (2) passed to: service/calculation
+	at clojure.lang.AFn.throwArity(AFn.java:429) ~[clojure-1.7.0.jar:na]
+	at clojure.lang.AFn.invoke(AFn.java:36) ~[clojure-1.7.0.jar:na]
+	at clojure.core$map$fn__4557.invoke(core.clj:2629) ~[clojure-1.7.0.jar:na]
+	at clojure.lang.LazySeq.sval(LazySeq.java:40) ~[clojure-1.7.0.jar:na]
+	at clojure.lang.LazySeq.seq(LazySeq.java:49) ~[clojure-1.7.0.jar:na]
+	at clojure.lang.RT.seq(RT.java:507) ~[clojure-1.7.0.jar:na]
+	at clojure.core$seq__4128.invoke(core.clj:137) ~[clojure-1.7.0.jar:na]
+	at clojure.core.protocols$seq_reduce.invoke(protocols.clj:26) ~[clojure-1.7.0.jar:na]
+	at clojure.core.protocols$fn__6506.invoke(protocols.clj:100) ~[clojure-1.7.0.jar:na]
+	at clojure.core.protocols$fn__6452$G__6447__6465.invoke(protocols.clj:13) ~[clojure-1.7.0.jar:na]
+	at clojure.core$reduce.invoke(core.clj:6515) ~[clojure-1.7.0.jar:na]
+	at lms.service$c_grade.invoke(service.clj:228) ~[na:na]
+	at lms.service$submit_grades.invoke(service.clj:242) ~[na:na]
+	at io.pedestal.interceptor$eval7351$fn__7352$fn__7353.invoke(interceptor.clj:38) ~[na:na]
+	at io.pedestal.impl.interceptor$try_f.invoke(interceptor.clj:50) ~[na:na]
+	... 29 common frames omitted
+22:24:11.957 [qtp598709333-19] INFO  i.p.http.impl.servlet-interceptor - {:line 266, :msg "sending error", :message "Internal server error: exception"}
+22:25:10.442 [main] INFO  org.eclipse.jetty.util.log - Logging initialized @14002ms
+22:25:10.595 [main] INFO  org.eclipse.jetty.server.Server - jetty-9.3.1.v20150714
+22:25:10.635 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@1d064935{/,null,AVAILABLE}
+22:25:10.661 [main] INFO  o.e.jetty.server.ServerConnector - Started ServerConnector@5cd96071{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+22:25:10.661 [main] INFO  org.eclipse.jetty.server.Server - Started @14224ms
+22:25:15.266 [qtp879397446-22] INFO  io.pedestal.http - {:line 78, :msg "GET /home"}
+22:25:15.560 [qtp879397446-22] INFO  io.pedestal.http - {:line 78, :msg "GET /login"}
+22:25:22.807 [qtp879397446-23] INFO  io.pedestal.http - {:line 78, :msg "POST /login"}
+22:25:22.964 [qtp879397446-17] INFO  io.pedestal.http - {:line 78, :msg "GET /home"}
+22:25:28.486 [qtp879397446-16] INFO  io.pedestal.http - {:line 78, :msg "POST /home/showquiz"}
+22:25:32.710 [qtp879397446-23] INFO  io.pedestal.http - {:line 78, :msg "POST /home/showquiz"}
+22:25:42.413 [qtp879397446-17] INFO  io.pedestal.http - {:line 78, :msg "POST /home/showquiz"}
+22:25:54.296 [qtp879397446-22] INFO  io.pedestal.http - {:line 78, :msg "POST /home/submit-grades"}
+22:25:54.341 [qtp879397446-22] ERROR i.p.http.impl.servlet-interceptor - {:line 304, :msg "error-ring-response triggered", :context {:response nil, :request {:cookies {"ring-session" {:value "+XrJeenAd2Kskexi0sh2ygt9x6pgclohiB7OHg8x5k8=--qAOYIelmFjm9zCgyZ2U/SQ9Ao3RMTiJYXdttm5UQhm0="}}, :io.pedestal.http.impl.servlet-interceptor/async-supported? true, :remote-addr "0:0:0:0:0:0:0:1", :servlet-context #object[org.eclipse.jetty.servlet.ServletContextHandler$Context 0x7bb8bb5 "ServletContext@o.e.j.s.ServletContextHandler@1d064935{/,null,AVAILABLE}"], :servlet-response #object[org.eclipse.jetty.server.Response 0x60056c4c "HTTP/1.1 200 \nDate: Fri, 22 Jan 2016 06:25:54 GMT\r\n\r\n"], :servlet-path "", :servlet #object[io.pedestal.http.servlet.FnServlet 0x1f561eb3 "io.pedestal.http.servlet.FnServlet@1f561eb3"], :headers {"origin" "http://localhost:8080", "host" "localhost:8080", "user-agent" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.111 Safari/537.36", "content-type" "application/x-www-form-urlencoded;charset=UTF-8", "cookie" "ring-session=%2BXrJeenAd2Kskexi0sh2ygt9x6pgclohiB7OHg8x5k8%3D--qAOYIelmFjm9zCgyZ2U%2FSQ9Ao3RMTiJYXdttm5UQhm0%3D", "content-length" 209, "referer" "http://localhost:8080/home", "connection" "keep-alive", "accept" "*/*", "accept-language" "en-US,en;q=0.8", "accept-encoding" "gzip, deflate"}, :server-port 8080, :servlet-request #object[org.eclipse.jetty.server.Request 0x1673d8bd "(POST //localhost:8080/home/submit-grades)@376690877 org.eclipse.jetty.server.Request@1673d8bd"], :content-length 209, :session/key "+XrJeenAd2Kskexi0sh2ygt9x6pgclohiB7OHg8x5k8=--qAOYIelmFjm9zCgyZ2U/SQ9Ao3RMTiJYXdttm5UQhm0=", :io.pedestal.http.impl.servlet-interceptor/protocol "HTTP/1.1", :content-type "application/x-www-form-urlencoded;charset=UTF-8", :path-info "/home/submit-grades", :character-encoding "utf-8", :url-for #object[io.pedestal.http.route$url_for_routes$fn__7901 0x3b3ea7f2 "io.pedestal.http.route$url_for_routes$fn__7901@3b3ea7f2"], :uri "/home/submit-grades", :server-name "localhost", :query-string nil, :path-params {}, :body #object[org.eclipse.jetty.server.HttpInputOverHTTP 0x562ae190 "org.eclipse.jetty.server.HttpInputOverHTTP@562ae190"], :scheme :http, :request-method :post, :context-path "", :session {:name "dhruv"}}, :bindings {#'io.pedestal.http.route/*url-for* #object[io.pedestal.http.route$url_for_routes$fn__7901 0x3b3ea7f2 "io.pedestal.http.route$url_for_routes$fn__7901@3b3ea7f2"]}, :enter-async [#object[io.pedestal.http.impl.servlet_interceptor$start_servlet_async 0x66f24598 "io.pedestal.http.impl.servlet_interceptor$start_servlet_async@66f24598"]], :servlet-response #object[org.eclipse.jetty.server.Response 0x60056c4c "HTTP/1.1 200 \nDate: Fri, 22 Jan 2016 06:25:54 GMT\r\n\r\n"], :route {:path-parts ["home" "submit-grades"], :path-params {}, :interceptors [#io.pedestal.interceptor.Interceptor{:name :io.pedestal.http.ring-middlewares/session, :enter #object[io.pedestal.http.ring_middlewares$session$fn__9341 0x130adc06 "io.pedestal.http.ring_middlewares$session$fn__9341@130adc06"], :leave #object[io.pedestal.http.ring_middlewares$response_fn_adapter$fn__9296 0x1f6753ab "io.pedestal.http.ring_middlewares$response_fn_adapter$fn__9296@1f6753ab"], :error nil} #io.pedestal.interceptor.Interceptor{:name :lms.service/submit-grades, :enter #object[io.pedestal.interceptor$eval7351$fn__7352$fn__7353 0x78e87c99 "io.pedestal.interceptor$eval7351$fn__7352$fn__7353@78e87c99"], :leave nil, :error nil}], :path "/home/submit-grades", :method :post, :path-re #"/\Qhome\E/\Qsubmit-grades\E", :route-name :lms.service/submit-grades, :io.pedestal.http.route.prefix-tree/satisfies-constraints? #object[clojure.core$constantly$fn__4383 0x28f4acd4 "clojure.core$constantly$fn__4383@28f4acd4"]}, :servlet #object[io.pedestal.http.servlet.FnServlet 0x1f561eb3 "io.pedestal.http.servlet.FnServlet@1f561eb3"], :servlet-request #object[org.eclipse.jetty.server.Request 0x1673d8bd "(POST //localhost:8080/home/submit-grades)@376690877 org.eclipse.jetty.server.Request@1673d8bd"], :io.pedestal.impl.interceptor/terminators (#object[io.pedestal.http.impl.servlet_interceptor$terminator_inject$fn__9785 0xecbc3ba "io.pedestal.http.impl.servlet_interceptor$terminator_inject$fn__9785@ecbc3ba"]), :io.pedestal.impl.interceptor/execution-id 8, :url-for #object[io.pedestal.http.route$url_for_routes$fn__7901 0x3b3ea7f2 "io.pedestal.http.route$url_for_routes$fn__7901@3b3ea7f2"], :servlet-config #object[org.eclipse.jetty.servlet.ServletHolder$Config 0x39267d0d "org.eclipse.jetty.servlet.ServletHolder$Config@39267d0d"], :io.pedestal.impl.interceptor/stack (#io.pedestal.interceptor.Interceptor{:name :io.pedestal.http.impl.servlet-interceptor/stylobate, :enter #object[io.pedestal.http.impl.servlet_interceptor$enter_stylobate 0x32b09b2f "io.pedestal.http.impl.servlet_interceptor$enter_stylobate@32b09b2f"], :leave #object[io.pedestal.http.impl.servlet_interceptor$leave_stylobate 0x12c26aa0 "io.pedestal.http.impl.servlet_interceptor$leave_stylobate@12c26aa0"], :error #object[io.pedestal.http.impl.servlet_interceptor$error_stylobate 0x48ad8ec5 "io.pedestal.http.impl.servlet_interceptor$error_stylobate@48ad8ec5"]} #io.pedestal.interceptor.Interceptor{:name :io.pedestal.http.impl.servlet-interceptor/terminator-injector, :enter #object[io.pedestal.interceptor.helpers$before$fn__7420 0x640517e2 "io.pedestal.interceptor.helpers$before$fn__7420@640517e2"], :leave nil, :error nil})}}
+clojure.lang.ExceptionInfo: Interceptor Exception: 
+	at clojure.core$ex_info.invoke(core.clj:4593) ~[clojure-1.7.0.jar:na]
+	at io.pedestal.impl.interceptor$throwable__GT_ex_info.invoke(interceptor.clj:31) ~[na:na]
+	at io.pedestal.impl.interceptor$try_f.invoke(interceptor.clj:53) ~[na:na]
+	at io.pedestal.impl.interceptor$enter_all_with_binding.invoke(interceptor.clj:141) ~[na:na]
+	at io.pedestal.impl.interceptor$enter_all$fn__7240.invoke(interceptor.clj:156) ~[na:na]
+	at clojure.lang.AFn.applyToHelper(AFn.java:152) ~[clojure-1.7.0.jar:na]
+	at clojure.lang.AFn.applyTo(AFn.java:144) ~[clojure-1.7.0.jar:na]
+	at clojure.core$apply.invoke(core.clj:630) ~[clojure-1.7.0.jar:na]
+	at clojure.core$with_bindings_STAR_.doInvoke(core.clj:1868) ~[clojure-1.7.0.jar:na]
+	at clojure.lang.RestFn.invoke(RestFn.java:425) ~[clojure-1.7.0.jar:na]
+	at io.pedestal.impl.interceptor$enter_all.invoke(interceptor.clj:154) ~[na:na]
+	at io.pedestal.impl.interceptor$execute.invoke(interceptor.clj:272) [na:na]
+	at io.pedestal.http.impl.servlet_interceptor$interceptor_service_fn$fn__9806.invoke(servlet_interceptor.clj:398) [na:na]
+	at io.pedestal.http.servlet.FnServlet.service(servlet.clj:28) [na:na]
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:816) [jetty-servlet-9.3.1.v20150714.jar:9.3.1.v20150714]
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:583) [jetty-servlet-9.3.1.v20150714.jar:9.3.1.v20150714]
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1113) [jetty-server-9.3.1.v20150714.jar:9.3.1.v20150714]
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:511) [jetty-servlet-9.3.1.v20150714.jar:9.3.1.v20150714]
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1047) [jetty-server-9.3.1.v20150714.jar:9.3.1.v20150714]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141) [jetty-server-9.3.1.v20150714.jar:9.3.1.v20150714]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:119) [jetty-server-9.3.1.v20150714.jar:9.3.1.v20150714]
+	at org.eclipse.jetty.server.Server.handle(Server.java:517) [jetty-server-9.3.1.v20150714.jar:9.3.1.v20150714]
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:302) [jetty-server-9.3.1.v20150714.jar:9.3.1.v20150714]
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:242) [jetty-server-9.3.1.v20150714.jar:9.3.1.v20150714]
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:238) [jetty-io-9.3.1.v20150714.jar:9.3.1.v20150714]
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:95) [jetty-io-9.3.1.v20150714.jar:9.3.1.v20150714]
+	at org.eclipse.jetty.io.SelectChannelEndPoint$2.run(SelectChannelEndPoint.java:57) [jetty-io-9.3.1.v20150714.jar:9.3.1.v20150714]
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.produceAndRun(ExecuteProduceConsume.java:213) [jetty-util-9.3.1.v20150714.jar:9.3.1.v20150714]
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.run(ExecuteProduceConsume.java:147) [jetty-util-9.3.1.v20150714.jar:9.3.1.v20150714]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:654) [jetty-util-9.3.1.v20150714.jar:9.3.1.v20150714]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:572) [jetty-util-9.3.1.v20150714.jar:9.3.1.v20150714]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_20]
+Caused by: java.lang.NullPointerException: null
+	at clojure.lang.Numbers.ops(Numbers.java:1013) ~[clojure-1.7.0.jar:na]
+	at clojure.lang.Numbers.add(Numbers.java:128) ~[clojure-1.7.0.jar:na]
+	at clojure.core$_PLUS_.invoke(core.clj:957) ~[clojure-1.7.0.jar:na]
+	at clojure.core.protocols$fn__6523.invoke(protocols.clj:167) ~[clojure-1.7.0.jar:na]
+	at clojure.core.protocols$fn__6478$G__6473__6487.invoke(protocols.clj:19) ~[clojure-1.7.0.jar:na]
+	at clojure.core.protocols$seq_reduce.invoke(protocols.clj:27) ~[clojure-1.7.0.jar:na]
+	at clojure.core.protocols$fn__6506.invoke(protocols.clj:100) ~[clojure-1.7.0.jar:na]
+	at clojure.core.protocols$fn__6452$G__6447__6465.invoke(protocols.clj:13) ~[clojure-1.7.0.jar:na]
+	at clojure.core$reduce.invoke(core.clj:6515) ~[clojure-1.7.0.jar:na]
+	at lms.service$c_grade.invoke(service.clj:228) ~[na:na]
+	at lms.service$submit_grades.invoke(service.clj:242) ~[na:na]
+	at io.pedestal.interceptor$eval7351$fn__7352$fn__7353.invoke(interceptor.clj:38) ~[na:na]
+	at io.pedestal.impl.interceptor$try_f.invoke(interceptor.clj:50) ~[na:na]
+	... 29 common frames omitted
+22:25:54.343 [qtp879397446-22] INFO  i.p.http.impl.servlet-interceptor - {:line 266, :msg "sending error", :message "Internal server error: exception"}

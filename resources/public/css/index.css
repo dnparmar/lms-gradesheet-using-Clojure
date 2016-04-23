@@ -1,0 +1,8 @@
+	body{
+		margin: 10px 0;
+	}
+
+	.done-true {
+	  text-decoration: line-through;
+	  color: grey;
+	}

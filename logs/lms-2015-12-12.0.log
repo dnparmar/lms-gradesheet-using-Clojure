@@ -1,0 +1,815 @@
+00:08:42.700 [main] INFO  org.eclipse.jetty.util.log - Logging initialized @13250ms
+00:08:42.870 [main] INFO  org.eclipse.jetty.server.Server - jetty-9.3.1.v20150714
+00:08:42.898 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@281a5139{/,null,AVAILABLE}
+00:08:42.931 [main] INFO  o.e.jetty.server.ServerConnector - Started ServerConnector@61c987d7{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+00:08:42.932 [main] INFO  org.eclipse.jetty.server.Server - Started @13484ms
+00:09:03.626 [qtp1042280911-17] INFO  io.pedestal.http - {:line 78, :msg "POST /home/uploadquiz/getfile"}
+00:09:03.835 [qtp1042280911-17] INFO  io.pedestal.http - {:line 78, :msg "GET /home"}
+00:09:03.862 [qtp1042280911-20] INFO  io.pedestal.http - {:line 78, :msg "GET /login"}
+00:09:06.681 [qtp1042280911-21] INFO  io.pedestal.http - {:line 78, :msg "GET /login"}
+00:09:15.091 [qtp1042280911-22] INFO  io.pedestal.http - {:line 78, :msg "POST /login"}
+00:09:15.252 [qtp1042280911-23] INFO  io.pedestal.http - {:line 78, :msg "GET /home"}
+00:09:21.028 [qtp1042280911-16] INFO  io.pedestal.http - {:line 78, :msg "POST /home/showquiz"}
+00:09:34.179 [qtp1042280911-17] INFO  io.pedestal.http - {:line 78, :msg "POST /home/uploadquiz"}
+00:09:39.526 [qtp1042280911-21] INFO  io.pedestal.http - {:line 78, :msg "POST /home/uploadquiz/getfile"}
+00:09:39.533 [qtp1042280911-22] INFO  io.pedestal.http - {:line 78, :msg "GET /home"}
+00:09:39.582 [qtp1042280911-23] INFO  io.pedestal.http - {:line 78, :msg "GET /js/client.js"}
+00:09:42.797 [qtp1042280911-16] INFO  io.pedestal.http - {:line 78, :msg "POST /home/showquiz"}
+00:14:29.442 [main] INFO  org.eclipse.jetty.util.log - Logging initialized @13122ms
+00:14:29.601 [main] INFO  org.eclipse.jetty.server.Server - jetty-9.3.1.v20150714
+00:14:29.635 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@187f6ac7{/,null,AVAILABLE}
+00:14:29.667 [main] INFO  o.e.jetty.server.ServerConnector - Started ServerConnector@56048e4d{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+00:14:29.668 [main] INFO  org.eclipse.jetty.server.Server - Started @13350ms
+00:14:34.182 [qtp349631887-19] INFO  io.pedestal.http - {:line 78, :msg "GET /home"}
+00:14:34.357 [qtp349631887-19] INFO  io.pedestal.http - {:line 78, :msg "GET /login"}
+00:14:42.721 [qtp349631887-20] INFO  io.pedestal.http - {:line 78, :msg "POST /login"}
+00:14:42.878 [qtp349631887-21] INFO  io.pedestal.http - {:line 78, :msg "GET /home"}
+00:14:49.442 [qtp349631887-22] INFO  io.pedestal.http - {:line 78, :msg "POST /home/uploadquiz"}
+00:14:53.643 [qtp349631887-23] INFO  io.pedestal.http - {:line 78, :msg "POST /home/uploadquiz/getfile"}
+00:14:53.716 [qtp349631887-16] INFO  io.pedestal.http - {:line 78, :msg "GET /home"}
+00:14:59.745 [qtp349631887-19] INFO  io.pedestal.http - {:line 78, :msg "POST /home/uploadquiz"}
+00:15:04.115 [qtp349631887-20] INFO  io.pedestal.http - {:line 78, :msg "POST /home/uploadquiz/getfile"}
+00:15:04.125 [qtp349631887-21] INFO  io.pedestal.http - {:line 78, :msg "GET /home"}
+00:15:07.020 [qtp349631887-22] INFO  io.pedestal.http - {:line 78, :msg "POST /home/showquiz"}
+00:15:09.632 [qtp349631887-23] INFO  io.pedestal.http - {:line 78, :msg "POST /home/showquiz"}
+00:15:37.769 [qtp349631887-16] INFO  io.pedestal.http - {:line 78, :msg "POST /home/submit-grades"}
+00:15:50.053 [qtp349631887-19] INFO  io.pedestal.http - {:line 78, :msg "POST /home/getgrade"}
+00:15:53.520 [qtp349631887-20] INFO  io.pedestal.http - {:line 78, :msg "POST /home/showquiz"}
+00:16:50.616 [qtp349631887-22] INFO  io.pedestal.http - {:line 78, :msg "POST /home/submit-grades"}
+00:16:54.895 [qtp349631887-17] INFO  io.pedestal.http - {:line 78, :msg "POST /home/showquiz"}
+00:17:09.115 [qtp349631887-19] INFO  io.pedestal.http - {:line 78, :msg "POST /home/submit-grades"}
+00:18:55.864 [qtp349631887-19] INFO  io.pedestal.http - {:line 78, :msg "POST /home/uploadquiz"}
+00:19:00.089 [qtp349631887-16] INFO  io.pedestal.http - {:line 78, :msg "POST /home/uploadquiz/getfile"}
+00:19:00.099 [qtp349631887-21] INFO  io.pedestal.http - {:line 78, :msg "GET /home"}
+00:19:02.803 [qtp349631887-22] INFO  io.pedestal.http - {:line 78, :msg "POST /home/showquiz"}
+00:19:15.760 [qtp349631887-17] INFO  io.pedestal.http - {:line 78, :msg "POST /home/submit-grades"}
+00:19:21.950 [qtp349631887-20] INFO  io.pedestal.http - {:line 78, :msg "POST /home/showquiz"}
+00:19:32.832 [qtp349631887-19] INFO  io.pedestal.http - {:line 78, :msg "POST /home/submit-grades"}
+00:24:05.692 [main] INFO  org.eclipse.jetty.util.log - Logging initialized @13057ms
+00:24:05.837 [main] INFO  org.eclipse.jetty.server.Server - jetty-9.3.1.v20150714
+00:24:05.876 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@b7e20f2{/,null,AVAILABLE}
+00:24:05.903 [main] INFO  o.e.jetty.server.ServerConnector - Started ServerConnector@208c08d2{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+00:24:05.904 [main] INFO  org.eclipse.jetty.server.Server - Started @13271ms
+00:24:10.491 [qtp1587881764-19] INFO  io.pedestal.http - {:line 78, :msg "GET /home"}
+00:24:10.668 [qtp1587881764-19] INFO  io.pedestal.http - {:line 78, :msg "GET /login"}
+00:24:18.504 [qtp1587881764-20] INFO  io.pedestal.http - {:line 78, :msg "POST /login"}
+00:24:18.661 [qtp1587881764-21] INFO  io.pedestal.http - {:line 78, :msg "GET /home"}
+00:24:22.310 [qtp1587881764-22] INFO  io.pedestal.http - {:line 78, :msg "POST /home/uploadquiz"}
+00:24:26.256 [qtp1587881764-23] INFO  io.pedestal.http - {:line 78, :msg "POST /home/uploadquiz/getfile"}
+00:24:26.328 [qtp1587881764-16] INFO  io.pedestal.http - {:line 78, :msg "GET /home"}
+00:24:30.514 [qtp1587881764-19] INFO  io.pedestal.http - {:line 78, :msg "POST /home/showquiz"}
+00:24:44.315 [qtp1587881764-20] INFO  io.pedestal.http - {:line 78, :msg "POST /home/submit-grades"}
+00:24:48.060 [qtp1587881764-21] INFO  io.pedestal.http - {:line 78, :msg "POST /home/getgrade"}
+00:24:54.094 [qtp1587881764-22] INFO  io.pedestal.http - {:line 78, :msg "POST /home/uploadquiz"}
+00:24:59.254 [qtp1587881764-23] INFO  io.pedestal.http - {:line 78, :msg "POST /home/uploadquiz/getfile"}
+00:24:59.262 [qtp1587881764-16] INFO  io.pedestal.http - {:line 78, :msg "GET /home"}
+00:25:04.711 [qtp1587881764-19] INFO  io.pedestal.http - {:line 78, :msg "POST /home/showquiz"}
+00:25:19.736 [qtp1587881764-20] INFO  io.pedestal.http - {:line 78, :msg "POST /home/submit-grades"}
+00:25:21.726 [qtp1587881764-21] INFO  io.pedestal.http - {:line 78, :msg "POST /home/getgrade"}
+00:25:23.655 [qtp1587881764-22] INFO  io.pedestal.http - {:line 78, :msg "GET /logout"}
+00:25:27.689 [qtp1587881764-23] INFO  io.pedestal.http - {:line 78, :msg "GET /"}
+00:25:32.390 [qtp1587881764-16] INFO  io.pedestal.http - {:line 78, :msg "GET /register"}
+00:25:34.682 [qtp1587881764-19] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-user"}
+00:25:35.110 [qtp1587881764-20] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-user"}
+00:25:36.093 [qtp1587881764-21] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-pass"}
+00:25:39.494 [qtp1587881764-22] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-user"}
+00:25:39.845 [qtp1587881764-23] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-user"}
+00:25:40.092 [qtp1587881764-16] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-user"}
+00:25:40.325 [qtp1587881764-19] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-user"}
+00:25:40.382 [qtp1587881764-20] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-user"}
+00:25:40.453 [qtp1587881764-21] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-user"}
+00:25:43.006 [qtp1587881764-22] INFO  io.pedestal.http - {:line 78, :msg "GET /"}
+00:25:45.197 [qtp1587881764-23] INFO  io.pedestal.http - {:line 78, :msg "GET /register"}
+00:25:47.338 [qtp1587881764-16] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-user"}
+00:25:47.605 [qtp1587881764-19] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-user"}
+00:25:47.893 [qtp1587881764-20] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-user"}
+00:25:47.941 [qtp1587881764-21] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-user"}
+00:25:48.029 [qtp1587881764-22] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-user"}
+00:25:48.494 [qtp1587881764-23] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-pass"}
+00:25:49.838 [qtp1587881764-16] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-pass"}
+00:25:49.973 [qtp1587881764-19] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-pass"}
+00:25:50.309 [qtp1587881764-20] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-pass"}
+00:25:50.349 [qtp1587881764-21] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-pass"}
+00:25:52.597 [qtp1587881764-22] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-pass"}
+00:25:53.925 [qtp1587881764-23] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-pass"}
+00:25:54.240 [qtp1587881764-16] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-pass"}
+00:25:55.374 [qtp1587881764-19] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-pass"}
+00:25:55.941 [qtp1587881764-20] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-pass"}
+00:25:56.037 [qtp1587881764-21] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-pass"}
+00:25:56.205 [qtp1587881764-22] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-pass"}
+00:25:57.981 [qtp1587881764-23] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-pass"}
+00:25:57.988 [qtp1587881764-16] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-pass"}
+00:25:58.398 [qtp1587881764-19] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-pass"}
+00:25:58.605 [qtp1587881764-20] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-pass"}
+00:25:58.909 [qtp1587881764-21] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-pass"}
+00:26:02.910 [qtp1587881764-22] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-pass"}
+00:26:03.910 [qtp1587881764-23] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-pass"}
+00:26:03.958 [qtp1587881764-16] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-pass"}
+00:26:04.894 [qtp1587881764-19] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-pass"}
+00:26:05.574 [qtp1587881764-20] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-pass"}
+00:26:05.685 [qtp1587881764-21] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-pass"}
+00:26:05.757 [qtp1587881764-22] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-pass"}
+00:26:06.919 [qtp1587881764-23] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-pass"}
+00:26:06.921 [qtp1587881764-19] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-pass"}
+00:26:07.366 [qtp1587881764-20] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-pass"}
+00:26:07.582 [qtp1587881764-21] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-pass"}
+00:26:07.958 [qtp1587881764-22] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-pass"}
+00:26:10.422 [qtp1587881764-17] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-pass"}
+00:26:12.654 [qtp1587881764-23] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-user"}
+00:26:13.806 [qtp1587881764-19] INFO  io.pedestal.http - {:line 78, :msg "POST /register/add-user"}
+00:26:16.878 [qtp1587881764-20] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-user"}
+00:26:16.917 [qtp1587881764-21] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-user"}
+00:26:17.534 [qtp1587881764-22] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-user"}
+00:26:17.693 [qtp1587881764-17] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-user"}
+00:26:17.766 [qtp1587881764-23] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-user"}
+00:26:17.814 [qtp1587881764-19] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-user"}
+00:26:19.262 [qtp1587881764-20] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-user"}
+00:26:20.310 [qtp1587881764-21] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-user"}
+00:26:21.638 [qtp1587881764-22] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-user"}
+00:26:21.790 [qtp1587881764-17] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-user"}
+00:26:22.022 [qtp1587881764-23] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-user"}
+00:26:22.087 [qtp1587881764-19] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-user"}
+00:26:22.087 [qtp1587881764-16] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-user"}
+00:26:22.574 [qtp1587881764-21] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-pass"}
+00:26:28.250 [qtp1587881764-22] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-pass"}
+00:26:28.258 [qtp1587881764-17] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-pass"}
+00:26:28.810 [qtp1587881764-23] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-pass"}
+00:26:29.114 [qtp1587881764-19] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-pass"}
+00:26:29.226 [qtp1587881764-16] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-pass"}
+00:26:29.354 [qtp1587881764-21] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-pass"}
+00:26:29.810 [qtp1587881764-22] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-pass"}
+00:26:30.034 [qtp1587881764-17] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-pass"}
+00:26:30.314 [qtp1587881764-23] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-pass"}
+00:26:30.810 [qtp1587881764-19] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-pass"}
+00:26:30.842 [qtp1587881764-16] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-pass"}
+00:26:33.272 [qtp1587881764-21] INFO  io.pedestal.http - {:line 78, :msg "POST /register/add-user"}
+00:26:35.518 [qtp1587881764-22] INFO  io.pedestal.http - {:line 78, :msg "GET /"}
+00:26:37.204 [qtp1587881764-17] INFO  io.pedestal.http - {:line 78, :msg "GET /login"}
+00:26:47.964 [qtp1587881764-23] INFO  io.pedestal.http - {:line 78, :msg "POST /login"}
+00:26:59.170 [qtp1587881764-19] INFO  io.pedestal.http - {:line 78, :msg "POST /login"}
+00:27:00.656 [qtp1587881764-21] INFO  io.pedestal.http - {:line 78, :msg "GET /"}
+00:27:01.990 [qtp1587881764-17] INFO  io.pedestal.http - {:line 78, :msg "GET /register"}
+00:27:03.456 [qtp1587881764-23] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-user"}
+00:27:04.363 [qtp1587881764-20] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-user"}
+00:27:04.563 [qtp1587881764-16] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-user"}
+00:27:04.971 [qtp1587881764-19] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-user"}
+00:27:07.233 [qtp1587881764-21] INFO  io.pedestal.http - {:line 78, :msg "GET /"}
+00:27:08.667 [qtp1587881764-17] INFO  io.pedestal.http - {:line 78, :msg "GET /login"}
+00:27:16.179 [qtp1587881764-23] INFO  io.pedestal.http - {:line 78, :msg "POST /login"}
+00:27:26.325 [qtp1587881764-20] INFO  io.pedestal.http - {:line 78, :msg "POST /login"}
+00:27:28.283 [qtp1587881764-16] INFO  io.pedestal.http - {:line 78, :msg "GET /"}
+00:27:31.701 [qtp1587881764-19] INFO  io.pedestal.http - {:line 78, :msg "GET /register"}
+00:27:33.625 [qtp1587881764-21] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-user"}
+00:27:33.892 [qtp1587881764-17] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-user"}
+00:27:34.100 [qtp1587881764-23] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-user"}
+00:27:34.180 [qtp1587881764-20] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-user"}
+00:27:34.233 [qtp1587881764-16] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-user"}
+00:27:34.996 [qtp1587881764-19] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-user"}
+00:27:35.204 [qtp1587881764-21] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-user"}
+00:27:36.292 [qtp1587881764-17] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-pass"}
+00:27:38.420 [qtp1587881764-23] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-pass"}
+00:27:38.436 [qtp1587881764-20] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-pass"}
+00:27:38.916 [qtp1587881764-16] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-pass"}
+00:27:39.396 [qtp1587881764-19] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-pass"}
+00:27:39.612 [qtp1587881764-21] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-pass"}
+00:27:39.924 [qtp1587881764-17] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-pass"}
+00:27:40.213 [qtp1587881764-23] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-pass"}
+00:27:40.412 [qtp1587881764-20] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-pass"}
+00:27:40.780 [qtp1587881764-16] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-pass"}
+00:27:41.004 [qtp1587881764-19] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-pass"}
+00:27:41.229 [qtp1587881764-21] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-pass"}
+00:27:41.492 [qtp1587881764-17] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-pass"}
+00:27:42.268 [qtp1587881764-23] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-pass"}
+00:27:42.316 [qtp1587881764-20] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-pass"}
+00:27:43.530 [qtp1587881764-16] INFO  io.pedestal.http - {:line 78, :msg "POST /register/add-user"}
+00:27:45.214 [qtp1587881764-19] INFO  io.pedestal.http - {:line 78, :msg "GET /"}
+00:27:46.333 [qtp1587881764-21] INFO  io.pedestal.http - {:line 78, :msg "GET /login"}
+00:27:57.321 [qtp1587881764-17] INFO  io.pedestal.http - {:line 78, :msg "POST /login"}
+00:27:57.408 [qtp1587881764-23] INFO  io.pedestal.http - {:line 78, :msg "GET /home"}
+00:28:00.531 [qtp1587881764-20] INFO  io.pedestal.http - {:line 78, :msg "POST /home/getgrade"}
+00:28:34.447 [qtp1587881764-21] INFO  io.pedestal.http - {:line 78, :msg "POST /home/showquiz"}
+00:28:51.935 [qtp1587881764-17] INFO  io.pedestal.http - {:line 78, :msg "POST /home/submit-grades"}
+00:29:30.342 [qtp1587881764-16] INFO  io.pedestal.http - {:line 78, :msg "POST /home/showquiz"}
+00:29:32.308 [qtp1587881764-17] INFO  io.pedestal.http - {:line 78, :msg "POST /home/showquiz"}
+00:29:48.989 [qtp1587881764-20] INFO  io.pedestal.http - {:line 78, :msg "POST /home/submit-grades"}
+00:29:55.283 [qtp1587881764-23] INFO  io.pedestal.http - {:line 78, :msg "POST /home/getgrade"}
+00:29:58.382 [qtp1587881764-22] INFO  io.pedestal.http - {:line 78, :msg "POST /home/showquiz"}
+00:30:01.621 [qtp1587881764-16] INFO  io.pedestal.http - {:line 78, :msg "GET /logout"}
+00:30:04.940 [qtp1587881764-21] INFO  io.pedestal.http - {:line 78, :msg "GET /"}
+00:30:06.414 [qtp1587881764-23] INFO  io.pedestal.http - {:line 78, :msg "GET /login"}
+00:30:13.464 [qtp1587881764-22] INFO  io.pedestal.http - {:line 78, :msg "POST /login"}
+00:30:13.551 [qtp1587881764-16] INFO  io.pedestal.http - {:line 78, :msg "GET /home"}
+00:30:16.381 [qtp1587881764-19] INFO  io.pedestal.http - {:line 78, :msg "POST /home/showquiz"}
+00:30:32.482 [qtp1587881764-21] INFO  io.pedestal.http - {:line 78, :msg "POST /home/submit-grades"}
+00:30:50.967 [qtp1587881764-22] INFO  io.pedestal.http - {:line 78, :msg "POST /home/uploadquiz"}
+00:30:55.514 [qtp1587881764-20] INFO  io.pedestal.http - {:line 78, :msg "POST /home/uploadquiz/getfile"}
+00:30:55.524 [qtp1587881764-16] INFO  io.pedestal.http - {:line 78, :msg "GET /home"}
+00:30:58.253 [qtp1587881764-23] INFO  io.pedestal.http - {:line 78, :msg "POST /home/showquiz"}
+00:31:12.065 [qtp1587881764-19] INFO  io.pedestal.http - {:line 78, :msg "POST /home/submit-grades"}
+00:31:14.686 [qtp1587881764-21] INFO  io.pedestal.http - {:line 78, :msg "POST /home/getgrade"}
+00:39:01.887 [main] INFO  org.eclipse.jetty.util.log - Logging initialized @13183ms
+00:39:02.048 [main] INFO  org.eclipse.jetty.server.Server - jetty-9.3.1.v20150714
+00:39:02.077 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@213488e6{/,null,AVAILABLE}
+00:39:02.106 [main] INFO  o.e.jetty.server.ServerConnector - Started ServerConnector@6537ab7d{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+00:39:02.106 [main] INFO  org.eclipse.jetty.server.Server - Started @13405ms
+00:39:04.437 [qtp1103244633-19] INFO  io.pedestal.http - {:line 78, :msg "GET /home"}
+00:39:04.609 [qtp1103244633-19] INFO  io.pedestal.http - {:line 78, :msg "GET /login"}
+00:39:13.439 [qtp1103244633-20] INFO  io.pedestal.http - {:line 78, :msg "POST /login"}
+00:39:13.605 [qtp1103244633-21] INFO  io.pedestal.http - {:line 78, :msg "GET /home"}
+00:39:15.170 [qtp1103244633-22] INFO  io.pedestal.http - {:line 78, :msg "POST /home/getgrade"}
+00:39:19.695 [qtp1103244633-23] INFO  io.pedestal.http - {:line 78, :msg "POST /home/showquiz"}
+00:39:38.466 [qtp1103244633-16] INFO  io.pedestal.http - {:line 78, :msg "POST /home/submit-grades"}
+00:39:43.505 [qtp1103244633-19] INFO  io.pedestal.http - {:line 78, :msg "POST /home/showquiz"}
+00:40:00.039 [qtp1103244633-20] INFO  io.pedestal.http - {:line 78, :msg "POST /home/showquiz"}
+00:40:14.112 [qtp1103244633-21] INFO  io.pedestal.http - {:line 78, :msg "POST /home/submit-grades"}
+00:50:55.057 [main] INFO  org.eclipse.jetty.util.log - Logging initialized @12783ms
+00:50:55.228 [main] INFO  org.eclipse.jetty.server.Server - jetty-9.3.1.v20150714
+00:50:55.257 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@62167368{/,null,AVAILABLE}
+00:50:55.293 [main] INFO  o.e.jetty.server.ServerConnector - Started ServerConnector@6be8e063{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+00:50:55.294 [main] INFO  org.eclipse.jetty.server.Server - Started @13023ms
+00:51:04.653 [qtp1426521939-19] INFO  io.pedestal.http - {:line 78, :msg "GET /home"}
+00:51:04.826 [qtp1426521939-19] INFO  io.pedestal.http - {:line 78, :msg "GET /login"}
+00:51:28.987 [qtp1426521939-20] INFO  io.pedestal.http - {:line 78, :msg "POST /login"}
+00:51:43.674 [qtp1426521939-21] INFO  io.pedestal.http - {:line 78, :msg "POST /login"}
+00:51:43.796 [qtp1426521939-22] INFO  io.pedestal.http - {:line 78, :msg "GET /home"}
+00:51:43.935 [qtp1426521939-23] INFO  io.pedestal.http - {:line 78, :msg "GET /js/client.js"}
+00:52:01.794 [qtp1426521939-16] INFO  io.pedestal.http - {:line 78, :msg "POST /home/uploadquiz"}
+00:52:03.399 [qtp1426521939-19] INFO  io.pedestal.http - {:line 78, :msg "POST /home/getgrade"}
+00:52:04.936 [qtp1426521939-20] INFO  io.pedestal.http - {:line 78, :msg "POST /home/uploadquiz"}
+00:52:06.124 [qtp1426521939-21] INFO  io.pedestal.http - {:line 78, :msg "POST /home/getgrade"}
+00:52:10.017 [qtp1426521939-22] INFO  io.pedestal.http - {:line 78, :msg "POST /home/showquiz"}
+00:52:43.915 [qtp1426521939-19] INFO  io.pedestal.http - {:line 78, :msg "POST /home/submit-grades"}
+00:53:25.316 [qtp1426521939-21] INFO  io.pedestal.http - {:line 78, :msg "POST /home/showquiz"}
+00:53:33.694 [qtp1426521939-20] INFO  io.pedestal.http - {:line 78, :msg "POST /home/submit-grades"}
+00:53:41.528 [qtp1426521939-22] INFO  io.pedestal.http - {:line 78, :msg "POST /home/showquiz"}
+00:53:43.744 [qtp1426521939-23] INFO  io.pedestal.http - {:line 78, :msg "POST /home/showquiz"}
+00:53:51.300 [qtp1426521939-19] INFO  io.pedestal.http - {:line 78, :msg "POST /home/submit-grades"}
+00:53:55.935 [qtp1426521939-16] INFO  io.pedestal.http - {:line 78, :msg "GET /home"}
+00:53:56.048 [qtp1426521939-21] INFO  io.pedestal.http - {:line 78, :msg "GET /js/client.js"}
+00:53:58.435 [qtp1426521939-20] INFO  io.pedestal.http - {:line 78, :msg "POST /home/showquiz"}
+00:54:04.248 [qtp1426521939-22] INFO  io.pedestal.http - {:line 78, :msg "POST /home/submit-grades"}
+00:54:11.453 [qtp1426521939-23] INFO  io.pedestal.http - {:line 78, :msg "POST /home/showquiz"}
+00:54:47.701 [qtp1426521939-21] INFO  io.pedestal.http - {:line 78, :msg "POST /home/submit-grades"}
+00:54:53.093 [qtp1426521939-22] INFO  io.pedestal.http - {:line 78, :msg "POST /home/showquiz"}
+00:54:58.605 [qtp1426521939-23] INFO  io.pedestal.http - {:line 78, :msg "POST /home/submit-grades"}
+00:59:31.680 [main] INFO  org.eclipse.jetty.util.log - Logging initialized @13315ms
+00:59:31.840 [main] INFO  org.eclipse.jetty.server.Server - jetty-9.3.1.v20150714
+00:59:31.868 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@b7e20f2{/,null,AVAILABLE}
+00:59:31.899 [main] INFO  o.e.jetty.server.ServerConnector - Started ServerConnector@208c08d2{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+00:59:31.899 [main] INFO  org.eclipse.jetty.server.Server - Started @13537ms
+00:59:35.402 [qtp1587881764-19] INFO  io.pedestal.http - {:line 78, :msg "GET /home"}
+00:59:35.613 [qtp1587881764-20] INFO  io.pedestal.http - {:line 78, :msg "GET /login"}
+00:59:43.533 [qtp1587881764-21] INFO  io.pedestal.http - {:line 78, :msg "POST /login"}
+00:59:43.686 [qtp1587881764-22] INFO  io.pedestal.http - {:line 78, :msg "GET /home"}
+00:59:46.142 [qtp1587881764-23] INFO  io.pedestal.http - {:line 78, :msg "POST /home/showquiz"}
+00:59:52.832 [qtp1587881764-16] INFO  io.pedestal.http - {:line 78, :msg "POST /home/submit-grades"}
+00:59:57.728 [qtp1587881764-19] INFO  io.pedestal.http - {:line 78, :msg "POST /home/showquiz"}
+01:00:02.337 [qtp1587881764-20] INFO  io.pedestal.http - {:line 78, :msg "POST /home/submit-grades"}
+01:00:06.343 [qtp1587881764-21] INFO  io.pedestal.http - {:line 78, :msg "POST /home/showquiz"}
+01:00:11.173 [qtp1587881764-22] INFO  io.pedestal.http - {:line 78, :msg "POST /home/submit-grades"}
+01:00:13.029 [qtp1587881764-23] INFO  io.pedestal.http - {:line 78, :msg "POST /home/getgrade"}
+01:00:14.701 [qtp1587881764-16] INFO  io.pedestal.http - {:line 78, :msg "POST /home/uploadquiz"}
+01:01:53.050 [qtp1587881764-21] INFO  io.pedestal.http - {:line 78, :msg "POST /home/uploadquiz"}
+01:02:01.455 [qtp1587881764-22] INFO  io.pedestal.http - {:line 78, :msg "POST /home/getgrade"}
+01:02:22.659 [qtp1587881764-23] INFO  io.pedestal.http - {:line 78, :msg "POST /home/showquiz"}
+01:02:26.126 [qtp1587881764-17] INFO  io.pedestal.http - {:line 78, :msg "GET /logout"}
+01:03:50.226 [main] INFO  org.eclipse.jetty.util.log - Logging initialized @13032ms
+01:03:50.414 [main] INFO  org.eclipse.jetty.server.Server - jetty-9.3.1.v20150714
+01:03:50.448 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@b7e20f2{/,null,AVAILABLE}
+01:03:50.476 [main] INFO  o.e.jetty.server.ServerConnector - Started ServerConnector@56578e7c{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+01:03:50.477 [main] INFO  org.eclipse.jetty.server.Server - Started @13287ms
+01:03:56.569 [qtp1587881764-19] INFO  io.pedestal.http - {:line 78, :msg "GET /"}
+01:03:56.683 [qtp1587881764-21] INFO  io.pedestal.http - {:line 78, :msg "GET /images/image1.jpg"}
+01:03:58.150 [qtp1587881764-22] INFO  io.pedestal.http - {:line 78, :msg "GET /login"}
+01:04:06.421 [qtp1587881764-16] INFO  io.pedestal.http - {:line 78, :msg "POST /login"}
+01:04:07.716 [qtp1587881764-17] INFO  io.pedestal.http - {:line 78, :msg "GET /"}
+01:04:08.846 [qtp1587881764-20] INFO  io.pedestal.http - {:line 78, :msg "GET /register"}
+01:04:10.742 [qtp1587881764-22] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-user"}
+01:04:11.048 [qtp1587881764-16] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-user"}
+01:04:11.216 [qtp1587881764-23] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-pass"}
+01:04:11.824 [qtp1587881764-17] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-pass"}
+01:04:11.855 [qtp1587881764-21] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-pass"}
+01:04:12.152 [qtp1587881764-20] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-pass"}
+01:04:12.440 [qtp1587881764-22] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-pass"}
+01:04:12.608 [qtp1587881764-16] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-pass"}
+01:04:12.912 [qtp1587881764-23] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-pass"}
+01:04:13.105 [qtp1587881764-17] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-pass"}
+01:04:13.304 [qtp1587881764-21] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-pass"}
+01:04:13.648 [qtp1587881764-20] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-pass"}
+01:04:13.856 [qtp1587881764-22] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-pass"}
+01:04:14.064 [qtp1587881764-16] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-pass"}
+01:04:14.296 [qtp1587881764-23] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-pass"}
+01:04:14.984 [qtp1587881764-17] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-pass"}
+01:04:15.048 [qtp1587881764-21] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-pass"}
+01:04:16.128 [qtp1587881764-20] INFO  io.pedestal.http - {:line 78, :msg "POST /register/add-user"}
+01:04:17.769 [qtp1587881764-22] INFO  io.pedestal.http - {:line 78, :msg "GET /"}
+01:04:18.911 [qtp1587881764-16] INFO  io.pedestal.http - {:line 78, :msg "GET /login"}
+01:04:26.218 [qtp1587881764-23] INFO  io.pedestal.http - {:line 78, :msg "POST /login"}
+01:04:26.352 [qtp1587881764-17] INFO  io.pedestal.http - {:line 78, :msg "GET /home"}
+01:04:28.773 [qtp1587881764-21] INFO  io.pedestal.http - {:line 78, :msg "POST /home/getgrade"}
+01:04:33.559 [qtp1587881764-20] INFO  io.pedestal.http - {:line 78, :msg "POST /home/uploadquiz"}
+01:04:37.538 [qtp1587881764-22] INFO  io.pedestal.http - {:line 78, :msg "POST /home/uploadquiz/getfile"}
+01:04:37.610 [qtp1587881764-16] INFO  io.pedestal.http - {:line 78, :msg "GET /home"}
+01:04:40.235 [qtp1587881764-23] INFO  io.pedestal.http - {:line 78, :msg "POST /home/showquiz"}
+01:04:56.198 [qtp1587881764-17] INFO  io.pedestal.http - {:line 78, :msg "POST /home/submit-grades"}
+01:05:07.280 [qtp1587881764-21] INFO  io.pedestal.http - {:line 78, :msg "POST /home/getgrade"}
+01:05:23.049 [qtp1587881764-20] INFO  io.pedestal.http - {:line 78, :msg "POST /home/getgrade"}
+01:05:24.783 [qtp1587881764-22] INFO  io.pedestal.http - {:line 78, :msg "POST /home/uploadquiz"}
+01:05:25.908 [qtp1587881764-16] INFO  io.pedestal.http - {:line 78, :msg "POST /home/getgrade"}
+01:05:30.025 [qtp1587881764-23] INFO  io.pedestal.http - {:line 78, :msg "POST /home/getgrade"}
+01:05:31.339 [qtp1587881764-17] INFO  io.pedestal.http - {:line 78, :msg "POST /home/uploadquiz"}
+01:12:05.515 [main] INFO  org.eclipse.jetty.util.log - Logging initialized @12932ms
+01:12:05.660 [main] INFO  org.eclipse.jetty.server.Server - jetty-9.3.1.v20150714
+01:12:05.702 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@5d165dce{/,null,AVAILABLE}
+01:12:05.736 [main] INFO  o.e.jetty.server.ServerConnector - Started ServerConnector@3469d57c{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+01:12:05.736 [main] INFO  org.eclipse.jetty.server.Server - Started @13156ms
+01:12:13.407 [qtp1640598380-19] INFO  io.pedestal.http - {:line 78, :msg "GET /home"}
+01:12:13.576 [qtp1640598380-19] INFO  io.pedestal.http - {:line 78, :msg "GET /login"}
+01:12:21.084 [qtp1640598380-20] INFO  io.pedestal.http - {:line 78, :msg "POST /login"}
+01:12:21.237 [qtp1640598380-21] INFO  io.pedestal.http - {:line 78, :msg "GET /home"}
+01:12:21.390 [qtp1640598380-22] INFO  io.pedestal.http - {:line 78, :msg "GET /js/client.js"}
+01:12:24.377 [qtp1640598380-23] INFO  io.pedestal.http - {:line 78, :msg "GET /logout"}
+01:12:24.388 [qtp1640598380-16] INFO  io.pedestal.http - {:line 78, :msg "GET /login"}
+01:12:26.330 [qtp1640598380-19] INFO  io.pedestal.http - {:line 78, :msg "GET /"}
+01:12:26.460 [qtp1640598380-20] INFO  io.pedestal.http - {:line 78, :msg "GET /images/image1.jpg"}
+01:12:27.488 [qtp1640598380-21] INFO  io.pedestal.http - {:line 78, :msg "GET /register"}
+01:12:29.737 [qtp1640598380-22] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-user"}
+01:12:29.818 [qtp1640598380-23] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-user"}
+01:12:29.994 [qtp1640598380-16] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-user"}
+01:12:30.058 [qtp1640598380-19] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-user"}
+01:12:30.290 [qtp1640598380-20] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-user"}
+01:12:30.707 [qtp1640598380-21] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-user"}
+01:12:30.906 [qtp1640598380-22] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-pass"}
+01:12:31.074 [qtp1640598380-23] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-pass"}
+01:12:31.618 [qtp1640598380-16] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-pass"}
+01:12:31.698 [qtp1640598380-19] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-pass"}
+01:12:31.946 [qtp1640598380-20] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-pass"}
+01:12:32.307 [qtp1640598380-21] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-pass"}
+01:12:32.426 [qtp1640598380-22] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-pass"}
+01:12:32.731 [qtp1640598380-23] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-pass"}
+01:12:32.986 [qtp1640598380-16] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-pass"}
+01:12:33.146 [qtp1640598380-19] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-pass"}
+01:12:33.498 [qtp1640598380-20] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-pass"}
+01:12:33.778 [qtp1640598380-21] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-pass"}
+01:12:33.994 [qtp1640598380-22] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-pass"}
+01:12:34.250 [qtp1640598380-23] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-pass"}
+01:12:34.834 [qtp1640598380-16] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-pass"}
+01:12:34.914 [qtp1640598380-19] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-pass"}
+01:12:36.172 [qtp1640598380-20] INFO  io.pedestal.http - {:line 78, :msg "POST /register"}
+01:12:36.247 [qtp1640598380-21] INFO  io.pedestal.http - {:line 78, :msg "GET /login"}
+01:12:48.940 [qtp1640598380-22] INFO  io.pedestal.http - {:line 78, :msg "POST /login"}
+01:12:49.033 [qtp1640598380-23] INFO  io.pedestal.http - {:line 78, :msg "GET /home"}
+01:12:50.561 [qtp1640598380-16] INFO  io.pedestal.http - {:line 78, :msg "POST /home/getgrade"}
+01:12:51.727 [qtp1640598380-19] INFO  io.pedestal.http - {:line 78, :msg "POST /home/uploadquiz"}
+01:12:54.837 [qtp1640598380-20] INFO  io.pedestal.http - {:line 78, :msg "POST /home/showquiz"}
+01:13:00.980 [qtp1640598380-21] INFO  io.pedestal.http - {:line 78, :msg "GET /logout"}
+01:13:00.992 [qtp1640598380-22] INFO  io.pedestal.http - {:line 78, :msg "GET /login"}
+14:19:37.080 [main] INFO  org.eclipse.jetty.util.log - Logging initialized @16505ms
+14:19:37.261 [main] INFO  org.eclipse.jetty.server.Server - jetty-9.3.1.v20150714
+14:19:37.293 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@5d165dce{/,null,AVAILABLE}
+14:19:37.329 [main] INFO  o.e.jetty.server.ServerConnector - Started ServerConnector@36813933{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+14:19:37.329 [main] INFO  org.eclipse.jetty.server.Server - Started @16758ms
+14:19:40.612 [qtp1640598380-19] INFO  io.pedestal.http - {:line 78, :msg "GET /"}
+14:19:41.044 [qtp1640598380-21] INFO  io.pedestal.http - {:line 78, :msg "GET /favicon.ico"}
+14:19:41.904 [qtp1640598380-22] INFO  io.pedestal.http - {:line 78, :msg "GET /login"}
+14:19:48.778 [qtp1640598380-23] INFO  io.pedestal.http - {:line 78, :msg "POST /login"}
+14:19:49.064 [qtp1640598380-16] INFO  io.pedestal.http - {:line 78, :msg "GET /home"}
+14:19:49.206 [qtp1640598380-17] INFO  io.pedestal.http - {:line 78, :msg "GET /js/client.js"}
+14:19:50.875 [qtp1640598380-19] INFO  io.pedestal.http - {:line 78, :msg "POST /home/getgrade"}
+14:19:58.351 [qtp1640598380-22] INFO  io.pedestal.http - {:line 78, :msg "POST /home/showquiz"}
+14:20:09.737 [qtp1640598380-16] INFO  io.pedestal.http - {:line 78, :msg "POST /home/submit-grades"}
+14:20:11.496 [qtp1640598380-17] INFO  io.pedestal.http - {:line 78, :msg "POST /home/getgrade"}
+14:37:21.336 [main] INFO  org.eclipse.jetty.util.log - Logging initialized @12721ms
+14:37:21.475 [main] INFO  org.eclipse.jetty.server.Server - jetty-9.3.1.v20150714
+14:37:21.504 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@5d165dce{/,null,AVAILABLE}
+14:37:21.534 [main] INFO  o.e.jetty.server.ServerConnector - Started ServerConnector@36813933{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+14:37:21.535 [main] INFO  org.eclipse.jetty.server.Server - Started @12926ms
+14:37:27.605 [qtp1640598380-21] INFO  io.pedestal.http - {:line 78, :msg "GET /home"}
+14:37:27.765 [qtp1640598380-22] INFO  io.pedestal.http - {:line 78, :msg "GET /login"}
+14:37:36.139 [qtp1640598380-23] INFO  io.pedestal.http - {:line 78, :msg "POST /login"}
+14:37:36.276 [qtp1640598380-16] INFO  io.pedestal.http - {:line 78, :msg "GET /home"}
+14:37:39.230 [qtp1640598380-17] INFO  io.pedestal.http - {:line 78, :msg "POST /home/getgrade"}
+14:37:41.701 [qtp1640598380-22] INFO  io.pedestal.http - {:line 78, :msg "POST /home/showquiz"}
+14:37:42.897 [qtp1640598380-20] INFO  io.pedestal.http - {:line 78, :msg "GET /logout"}
+14:37:42.905 [qtp1640598380-19] INFO  io.pedestal.http - {:line 78, :msg "GET /login"}
+14:37:44.904 [qtp1640598380-23] INFO  io.pedestal.http - {:line 78, :msg "GET /"}
+14:37:45.940 [qtp1640598380-16] INFO  io.pedestal.http - {:line 78, :msg "GET /register"}
+14:37:48.007 [qtp1640598380-17] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-user"}
+14:37:48.211 [qtp1640598380-22] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-user"}
+14:37:49.898 [qtp1640598380-20] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-user"}
+14:37:51.421 [qtp1640598380-19] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-pass"}
+14:37:52.410 [qtp1640598380-23] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-pass"}
+14:37:52.456 [qtp1640598380-16] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-pass"}
+14:37:52.913 [qtp1640598380-17] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-pass"}
+14:37:53.514 [qtp1640598380-22] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-pass"}
+14:37:53.658 [qtp1640598380-20] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-pass"}
+14:37:53.930 [qtp1640598380-19] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-pass"}
+14:37:54.194 [qtp1640598380-23] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-pass"}
+14:37:54.394 [qtp1640598380-16] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-pass"}
+14:37:54.730 [qtp1640598380-17] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-pass"}
+14:37:54.954 [qtp1640598380-22] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-pass"}
+14:37:55.203 [qtp1640598380-20] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-pass"}
+14:37:55.459 [qtp1640598380-19] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-pass"}
+14:37:56.258 [qtp1640598380-23] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-pass"}
+14:37:56.265 [qtp1640598380-16] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-pass"}
+14:37:57.914 [qtp1640598380-17] INFO  io.pedestal.http - {:line 78, :msg "POST /register"}
+14:37:57.996 [qtp1640598380-22] INFO  io.pedestal.http - {:line 78, :msg "GET /login"}
+14:38:07.502 [qtp1640598380-20] INFO  io.pedestal.http - {:line 78, :msg "POST /login"}
+14:38:07.591 [qtp1640598380-19] INFO  io.pedestal.http - {:line 78, :msg "GET /home"}
+14:38:09.226 [qtp1640598380-23] INFO  io.pedestal.http - {:line 78, :msg "POST /home/getgrade"}
+14:38:09.968 [qtp1640598380-16] INFO  io.pedestal.http - {:line 78, :msg "POST /home/uploadquiz"}
+14:38:30.744 [qtp1640598380-22] INFO  io.pedestal.http - {:line 78, :msg "POST /home/uploadquiz/getfile"}
+14:38:30.810 [qtp1640598380-20] INFO  io.pedestal.http - {:line 78, :msg "GET /home"}
+14:38:32.726 [qtp1640598380-19] INFO  io.pedestal.http - {:line 78, :msg "POST /home/getgrade"}
+14:38:42.232 [qtp1640598380-23] INFO  io.pedestal.http - {:line 78, :msg "POST /home/showquiz"}
+14:38:53.792 [qtp1640598380-16] INFO  io.pedestal.http - {:line 78, :msg "POST /home/submit-grades"}
+14:38:55.648 [qtp1640598380-17] INFO  io.pedestal.http - {:line 78, :msg "POST /home/getgrade"}
+14:39:04.382 [qtp1640598380-22] INFO  io.pedestal.http - {:line 78, :msg "POST /home/showquiz"}
+14:39:06.625 [qtp1640598380-20] INFO  io.pedestal.http - {:line 78, :msg "POST /home/showquiz"}
+14:39:08.448 [qtp1640598380-19] INFO  io.pedestal.http - {:line 78, :msg "GET /logout"}
+14:39:08.458 [qtp1640598380-23] INFO  io.pedestal.http - {:line 78, :msg "GET /login"}
+15:26:18.333 [main] INFO  org.eclipse.jetty.util.log - Logging initialized @17526ms
+15:26:18.579 [main] INFO  org.eclipse.jetty.server.Server - jetty-9.3.1.v20150714
+15:26:18.620 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@692e4a35{/,null,AVAILABLE}
+15:26:18.669 [main] INFO  o.e.jetty.server.ServerConnector - Started ServerConnector@43ff17aa{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+15:26:18.674 [main] INFO  org.eclipse.jetty.server.Server - Started @17868ms
+15:26:24.142 [qtp1278709126-19] INFO  io.pedestal.http - {:line 78, :msg "GET /login"}
+15:26:25.781 [qtp1278709126-20] INFO  io.pedestal.http - {:line 78, :msg "GET /login"}
+15:26:28.643 [qtp1278709126-21] INFO  io.pedestal.http - {:line 78, :msg "GET /login"}
+15:26:39.267 [qtp1278709126-22] INFO  io.pedestal.http - {:line 78, :msg "GET /login"}
+15:28:06.227 [main] INFO  org.eclipse.jetty.util.log - Logging initialized @17109ms
+15:28:06.501 [main] INFO  org.eclipse.jetty.server.Server - jetty-9.3.1.v20150714
+15:28:06.558 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@692e4a35{/,null,AVAILABLE}
+15:28:06.596 [main] INFO  o.e.jetty.server.ServerConnector - Started ServerConnector@18275381{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+15:28:06.597 [main] INFO  org.eclipse.jetty.server.Server - Started @17482ms
+15:28:11.708 [qtp1278709126-19] INFO  io.pedestal.http - {:line 78, :msg "GET /login"}
+15:28:15.324 [qtp1278709126-20] INFO  io.pedestal.http - {:line 78, :msg "GET /google"}
+15:28:16.772 [qtp1278709126-20] ERROR i.p.http.impl.servlet-interceptor - {:line 304, :msg "error-ring-response triggered", :context {:response nil, :request {:io.pedestal.http.impl.servlet-interceptor/async-supported? true, :remote-addr "0:0:0:0:0:0:0:1", :params {:state "1234", :code "4/_hpYLMQYZpG8Xnh-q3-CjVzc0mWyDhXzzSgPyjU6NBY"}, :servlet-context #object[org.eclipse.jetty.servlet.ServletContextHandler$Context 0x58aa2283 "ServletContext@o.e.j.s.ServletContextHandler@692e4a35{/,null,AVAILABLE}"], :servlet-response #object[org.eclipse.jetty.server.Response 0x1b0c3fd4 "HTTP/1.1 200 \nDate: Sat, 12 Dec 2015 23:28:15 GMT\r\n\r\n"], :servlet-path "", :servlet #object[io.pedestal.http.servlet.FnServlet 0x58f6e51b "io.pedestal.http.servlet.FnServlet@58f6e51b"], :headers {"host" "localhost:8080", "user-agent" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.86 Safari/537.36", "cookie" "SID=61T47TrWJ6FFP5iLoeZbvsIWMVaYIo6dLQkl2cKxKbL2oCGtmIH5eVesyFEeA4%2BEMWNgepmvJsgyQlKsFlOi56UQEhZiGL%2FHAV59sOPOutwh6SkthlrmdHU2oKmZZLaSmXO%2FKkrNZkoyWPb6ii7AZg%3D%3D--OuTF2T8CRw%2BzI1%2FdyEFNJ523HCh2UhFToac1itpdhAU%3D; ring-session=M3KZn6U8M%2B7pPgGvqtko6L6L3cBWHuR3XYjLbDZ1eZo%3D--fsd7VlNxtsDrAMAIU%2BgCHKpzWJuMfB%2B2RqJEKKkj4IM%3D", "referer" "http://localhost:8080/login", "connection" "keep-alive", "upgrade-insecure-requests" "1", "accept" "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", "accept-language" "en-US,en;q=0.8", "accept-encoding" "gzip, deflate, sdch", "x-client-data" "CKO2yQEIqbbJAQjEtskBCOuIygEIipLKAQj9lcoBCL2YygE="}, :server-port 8080, :servlet-request #object[org.eclipse.jetty.server.Request 0x44611505 "(GET //localhost:8080/google?state=1234&code=4/_hpYLMQYZpG8Xnh-q3-CjVzc0mWyDhXzzSgPyjU6NBY)@1147213061 org.eclipse.jetty.server.Request@44611505"], :io.pedestal.http.impl.servlet-interceptor/protocol "HTTP/1.1", :query-params {:state "1234", :code "4/_hpYLMQYZpG8Xnh-q3-CjVzc0mWyDhXzzSgPyjU6NBY"}, :path-info "/google", :url-for #object[io.pedestal.http.route$url_for_routes$fn__7901 0x58ef080c "io.pedestal.http.route$url_for_routes$fn__7901@58ef080c"], :uri "/google", :server-name "localhost", :query-string "state=1234&code=4/_hpYLMQYZpG8Xnh-q3-CjVzc0mWyDhXzzSgPyjU6NBY", :path-params {}, :body #object[org.eclipse.jetty.server.HttpInputOverHTTP 0xd73f953 "org.eclipse.jetty.server.HttpInputOverHTTP@d73f953"], :scheme :http, :request-method :get, :context-path ""}, :bindings {#'io.pedestal.http.route/*url-for* #object[io.pedestal.http.route$url_for_routes$fn__7901 0x58ef080c "io.pedestal.http.route$url_for_routes$fn__7901@58ef080c"]}, :enter-async [#object[io.pedestal.http.impl.servlet_interceptor$start_servlet_async 0x44f986b1 "io.pedestal.http.impl.servlet_interceptor$start_servlet_async@44f986b1"]], :servlet-response #object[org.eclipse.jetty.server.Response 0x1b0c3fd4 "HTTP/1.1 200 \nDate: Sat, 12 Dec 2015 23:28:15 GMT\r\n\r\n"], :route {:path-parts ["google"], :path-params {}, :interceptors [#io.pedestal.interceptor.Interceptor{:name :lms.service/google, :enter #object[io.pedestal.interceptor$eval7351$fn__7352$fn__7353 0x4eb148d9 "io.pedestal.interceptor$eval7351$fn__7352$fn__7353@4eb148d9"], :leave nil, :error nil}], :path "/google", :method :get, :path-re #"/\Qgoogle\E", :route-name :lms.service/google, :io.pedestal.http.route.prefix-tree/satisfies-constraints? #object[clojure.core$constantly$fn__4383 0x1a3e1c6d "clojure.core$constantly$fn__4383@1a3e1c6d"]}, :servlet #object[io.pedestal.http.servlet.FnServlet 0x58f6e51b "io.pedestal.http.servlet.FnServlet@58f6e51b"], :servlet-request #object[org.eclipse.jetty.server.Request 0x44611505 "(GET //localhost:8080/google?state=1234&code=4/_hpYLMQYZpG8Xnh-q3-CjVzc0mWyDhXzzSgPyjU6NBY)@1147213061 org.eclipse.jetty.server.Request@44611505"], :io.pedestal.impl.interceptor/terminators (#object[io.pedestal.http.impl.servlet_interceptor$terminator_inject$fn__9785 0x40e8c8b7 "io.pedestal.http.impl.servlet_interceptor$terminator_inject$fn__9785@40e8c8b7"]), :io.pedestal.impl.interceptor/execution-id 2, :url-for #object[io.pedestal.http.route$url_for_routes$fn__7901 0x58ef080c "io.pedestal.http.route$url_for_routes$fn__7901@58ef080c"], :servlet-config #object[org.eclipse.jetty.servlet.ServletHolder$Config 0x24daa9e3 "org.eclipse.jetty.servlet.ServletHolder$Config@24daa9e3"], :io.pedestal.impl.interceptor/stack (#io.pedestal.interceptor.Interceptor{:name :io.pedestal.http.impl.servlet-interceptor/stylobate, :enter #object[io.pedestal.http.impl.servlet_interceptor$enter_stylobate 0x4efe8539 "io.pedestal.http.impl.servlet_interceptor$enter_stylobate@4efe8539"], :leave #object[io.pedestal.http.impl.servlet_interceptor$leave_stylobate 0x4dbc381 "io.pedestal.http.impl.servlet_interceptor$leave_stylobate@4dbc381"], :error #object[io.pedestal.http.impl.servlet_interceptor$error_stylobate 0x17eb20f9 "io.pedestal.http.impl.servlet_interceptor$error_stylobate@17eb20f9"]} #io.pedestal.interceptor.Interceptor{:name :io.pedestal.http.impl.servlet-interceptor/terminator-injector, :enter #object[io.pedestal.interceptor.helpers$before$fn__7420 0x478880c1 "io.pedestal.interceptor.helpers$before$fn__7420@478880c1"], :leave nil, :error nil})}}
+clojure.lang.ExceptionInfo: Interceptor Exception: Wrong number of args (0) passed to: core/parse-string
+	at clojure.core$ex_info.invoke(core.clj:4593) ~[clojure-1.7.0.jar:na]
+	at io.pedestal.impl.interceptor$throwable__GT_ex_info.invoke(interceptor.clj:31) ~[na:na]
+	at io.pedestal.impl.interceptor$try_f.invoke(interceptor.clj:53) ~[na:na]
+	at io.pedestal.impl.interceptor$enter_all_with_binding.invoke(interceptor.clj:141) ~[na:na]
+	at io.pedestal.impl.interceptor$enter_all$fn__7240.invoke(interceptor.clj:156) ~[na:na]
+	at clojure.lang.AFn.applyToHelper(AFn.java:152) ~[clojure-1.7.0.jar:na]
+	at clojure.lang.AFn.applyTo(AFn.java:144) ~[clojure-1.7.0.jar:na]
+	at clojure.core$apply.invoke(core.clj:630) ~[clojure-1.7.0.jar:na]
+	at clojure.core$with_bindings_STAR_.doInvoke(core.clj:1868) ~[clojure-1.7.0.jar:na]
+	at clojure.lang.RestFn.invoke(RestFn.java:425) ~[clojure-1.7.0.jar:na]
+	at io.pedestal.impl.interceptor$enter_all.invoke(interceptor.clj:154) ~[na:na]
+	at io.pedestal.impl.interceptor$execute.invoke(interceptor.clj:272) [na:na]
+	at io.pedestal.http.impl.servlet_interceptor$interceptor_service_fn$fn__9806.invoke(servlet_interceptor.clj:398) [na:na]
+	at io.pedestal.http.servlet.FnServlet.service(servlet.clj:28) [na:na]
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:816) [jetty-servlet-9.3.1.v20150714.jar:9.3.1.v20150714]
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:583) [jetty-servlet-9.3.1.v20150714.jar:9.3.1.v20150714]
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1113) [jetty-server-9.3.1.v20150714.jar:9.3.1.v20150714]
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:511) [jetty-servlet-9.3.1.v20150714.jar:9.3.1.v20150714]
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1047) [jetty-server-9.3.1.v20150714.jar:9.3.1.v20150714]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141) [jetty-server-9.3.1.v20150714.jar:9.3.1.v20150714]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:119) [jetty-server-9.3.1.v20150714.jar:9.3.1.v20150714]
+	at org.eclipse.jetty.server.Server.handle(Server.java:517) [jetty-server-9.3.1.v20150714.jar:9.3.1.v20150714]
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:302) [jetty-server-9.3.1.v20150714.jar:9.3.1.v20150714]
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:242) [jetty-server-9.3.1.v20150714.jar:9.3.1.v20150714]
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:238) [jetty-io-9.3.1.v20150714.jar:9.3.1.v20150714]
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:95) [jetty-io-9.3.1.v20150714.jar:9.3.1.v20150714]
+	at org.eclipse.jetty.io.SelectChannelEndPoint$2.run(SelectChannelEndPoint.java:57) [jetty-io-9.3.1.v20150714.jar:9.3.1.v20150714]
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.produceAndRun(ExecuteProduceConsume.java:213) [jetty-util-9.3.1.v20150714.jar:9.3.1.v20150714]
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.run(ExecuteProduceConsume.java:147) [jetty-util-9.3.1.v20150714.jar:9.3.1.v20150714]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:654) [jetty-util-9.3.1.v20150714.jar:9.3.1.v20150714]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:572) [jetty-util-9.3.1.v20150714.jar:9.3.1.v20150714]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_25]
+Caused by: clojure.lang.ArityException: Wrong number of args (0) passed to: core/parse-string
+	at clojure.lang.AFn.throwArity(AFn.java:429) ~[clojure-1.7.0.jar:na]
+	at clojure.lang.AFn.invoke(AFn.java:28) ~[clojure-1.7.0.jar:na]
+	at lms.service$google.invoke(service.clj:82) ~[na:na]
+	at io.pedestal.interceptor$eval7351$fn__7352$fn__7353.invoke(interceptor.clj:38) ~[na:na]
+	at io.pedestal.impl.interceptor$try_f.invoke(interceptor.clj:50) ~[na:na]
+	... 29 common frames omitted
+15:28:16.775 [qtp1278709126-20] INFO  i.p.http.impl.servlet-interceptor - {:line 266, :msg "sending error", :message "Internal server error: exception"}
+15:29:31.343 [main] INFO  org.eclipse.jetty.util.log - Logging initialized @16948ms
+15:29:31.599 [main] INFO  org.eclipse.jetty.server.Server - jetty-9.3.1.v20150714
+15:29:31.634 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@692e4a35{/,null,AVAILABLE}
+15:29:31.677 [main] INFO  o.e.jetty.server.ServerConnector - Started ServerConnector@18275381{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+15:29:31.678 [main] INFO  org.eclipse.jetty.server.Server - Started @17285ms
+15:29:38.087 [qtp1278709126-19] INFO  io.pedestal.http - {:line 78, :msg "GET /login"}
+15:29:40.342 [qtp1278709126-20] INFO  io.pedestal.http - {:line 78, :msg "GET /google"}
+15:30:20.770 [main] INFO  org.eclipse.jetty.util.log - Logging initialized @16798ms
+15:30:21.001 [main] INFO  org.eclipse.jetty.server.Server - jetty-9.3.1.v20150714
+15:30:21.045 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@4623bf06{/,null,AVAILABLE}
+15:30:21.114 [main] INFO  o.e.jetty.server.ServerConnector - Started ServerConnector@5116ed94{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+15:30:21.119 [main] INFO  org.eclipse.jetty.server.Server - Started @17150ms
+15:30:25.551 [qtp774357682-19] INFO  io.pedestal.http - {:line 78, :msg "GET /login"}
+15:30:27.630 [qtp774357682-20] INFO  io.pedestal.http - {:line 78, :msg "GET /google"}
+15:31:33.673 [main] INFO  org.eclipse.jetty.util.log - Logging initialized @16228ms
+15:31:33.925 [main] INFO  org.eclipse.jetty.server.Server - jetty-9.3.1.v20150714
+15:31:33.953 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@692e4a35{/,null,AVAILABLE}
+15:31:34.014 [main] INFO  o.e.jetty.server.ServerConnector - Started ServerConnector@a6c015{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+15:31:34.015 [main] INFO  org.eclipse.jetty.server.Server - Started @16575ms
+15:31:38.518 [qtp1278709126-19] INFO  io.pedestal.http - {:line 78, :msg "GET /login"}
+15:31:40.702 [qtp1278709126-20] INFO  io.pedestal.http - {:line 78, :msg "GET /google"}
+15:33:03.356 [main] INFO  org.eclipse.jetty.util.log - Logging initialized @16190ms
+15:33:03.617 [main] INFO  org.eclipse.jetty.server.Server - jetty-9.3.1.v20150714
+15:33:03.654 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@1d064935{/,null,AVAILABLE}
+15:33:03.700 [main] INFO  o.e.jetty.server.ServerConnector - Started ServerConnector@5cd96071{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+15:33:03.701 [main] INFO  org.eclipse.jetty.server.Server - Started @16540ms
+15:33:08.442 [qtp879397446-19] INFO  io.pedestal.http - {:line 78, :msg "GET /login"}
+15:33:10.429 [qtp879397446-20] INFO  io.pedestal.http - {:line 78, :msg "GET /google"}
+15:35:18.469 [main] INFO  org.eclipse.jetty.util.log - Logging initialized @16197ms
+15:35:18.697 [main] INFO  org.eclipse.jetty.server.Server - jetty-9.3.1.v20150714
+15:35:18.721 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@1d064935{/,null,AVAILABLE}
+15:35:18.760 [main] INFO  o.e.jetty.server.ServerConnector - Started ServerConnector@5cd96071{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+15:35:18.761 [main] INFO  org.eclipse.jetty.server.Server - Started @16492ms
+15:35:25.529 [qtp879397446-19] INFO  io.pedestal.http - {:line 78, :msg "GET /login"}
+15:35:27.481 [qtp879397446-20] INFO  io.pedestal.http - {:line 78, :msg "GET /google"}
+15:35:29.302 [qtp879397446-21] INFO  io.pedestal.http - {:line 78, :msg "GET /home"}
+15:35:29.319 [qtp879397446-22] INFO  io.pedestal.http - {:line 78, :msg "GET /login"}
+15:37:03.197 [main] INFO  org.eclipse.jetty.util.log - Logging initialized @17398ms
+15:37:03.413 [main] INFO  org.eclipse.jetty.server.Server - jetty-9.3.1.v20150714
+15:37:03.442 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@1d064935{/,null,AVAILABLE}
+15:37:03.482 [main] INFO  o.e.jetty.server.ServerConnector - Started ServerConnector@5cd96071{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+15:37:03.483 [main] INFO  org.eclipse.jetty.server.Server - Started @17687ms
+15:37:08.314 [qtp879397446-19] INFO  io.pedestal.http - {:line 78, :msg "GET /login"}
+15:37:10.153 [qtp879397446-20] INFO  io.pedestal.http - {:line 78, :msg "GET /google"}
+15:37:11.847 [qtp879397446-21] INFO  io.pedestal.http - {:line 78, :msg "GET /home"}
+15:37:11.876 [qtp879397446-22] INFO  io.pedestal.http - {:line 78, :msg "GET /login"}
+15:38:42.565 [main] INFO  org.eclipse.jetty.util.log - Logging initialized @17052ms
+15:38:42.773 [main] INFO  org.eclipse.jetty.server.Server - jetty-9.3.1.v20150714
+15:38:42.797 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@1d064935{/,null,AVAILABLE}
+15:38:42.835 [main] INFO  o.e.jetty.server.ServerConnector - Started ServerConnector@5cd96071{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+15:38:42.836 [main] INFO  org.eclipse.jetty.server.Server - Started @17327ms
+15:38:49.565 [qtp879397446-19] INFO  io.pedestal.http - {:line 78, :msg "GET /login"}
+15:38:51.657 [qtp879397446-20] INFO  io.pedestal.http - {:line 78, :msg "GET /google"}
+15:38:54.166 [qtp879397446-21] INFO  io.pedestal.http - {:line 78, :msg "GET /home"}
+15:38:54.189 [qtp879397446-22] INFO  io.pedestal.http - {:line 78, :msg "GET /login"}
+15:40:23.597 [main] INFO  org.eclipse.jetty.util.log - Logging initialized @16144ms
+15:40:23.830 [main] INFO  org.eclipse.jetty.server.Server - jetty-9.3.1.v20150714
+15:40:23.868 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@1d064935{/,null,AVAILABLE}
+15:40:23.914 [main] INFO  o.e.jetty.server.ServerConnector - Started ServerConnector@4edfb6b4{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+15:40:23.915 [main] INFO  org.eclipse.jetty.server.Server - Started @16465ms
+15:40:29.653 [qtp879397446-19] INFO  io.pedestal.http - {:line 78, :msg "GET /login"}
+15:40:32.373 [qtp879397446-20] INFO  io.pedestal.http - {:line 78, :msg "GET /login"}
+15:40:34.211 [qtp879397446-21] INFO  io.pedestal.http - {:line 78, :msg "GET /google"}
+15:40:36.021 [qtp879397446-22] INFO  io.pedestal.http - {:line 78, :msg "GET /home"}
+15:40:36.233 [qtp879397446-23] INFO  io.pedestal.http - {:line 78, :msg "GET /login"}
+15:42:21.614 [main] INFO  org.eclipse.jetty.util.log - Logging initialized @23343ms
+15:42:22.419 [main] INFO  org.eclipse.jetty.server.Server - jetty-9.3.1.v20150714
+15:42:22.536 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@1d064935{/,null,AVAILABLE}
+15:42:22.624 [main] INFO  o.e.jetty.server.ServerConnector - Started ServerConnector@da1625b{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+15:42:22.633 [main] INFO  org.eclipse.jetty.server.Server - Started @24372ms
+15:42:43.660 [qtp879397446-19] INFO  io.pedestal.http - {:line 78, :msg "GET /login"}
+15:42:45.180 [qtp879397446-20] INFO  io.pedestal.http - {:line 78, :msg "GET /google"}
+15:42:47.001 [qtp879397446-21] INFO  io.pedestal.http - {:line 78, :msg "GET /home"}
+15:42:47.222 [qtp879397446-22] INFO  io.pedestal.http - {:line 78, :msg "GET /login"}
+15:47:10.385 [main] INFO  org.eclipse.jetty.util.log - Logging initialized @15721ms
+15:47:10.598 [main] INFO  org.eclipse.jetty.server.Server - jetty-9.3.1.v20150714
+15:47:10.658 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@1d064935{/,null,AVAILABLE}
+15:47:10.732 [main] INFO  o.e.jetty.server.ServerConnector - Started ServerConnector@5cd96071{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+15:47:10.733 [main] INFO  org.eclipse.jetty.server.Server - Started @16071ms
+15:47:17.830 [qtp879397446-19] INFO  io.pedestal.http - {:line 78, :msg "GET /login"}
+15:47:19.646 [qtp879397446-20] INFO  io.pedestal.http - {:line 78, :msg "GET /google"}
+15:47:21.091 [qtp879397446-21] INFO  io.pedestal.http - {:line 78, :msg "GET /home"}
+15:47:21.519 [qtp879397446-22] INFO  io.pedestal.http - {:line 78, :msg "GET /js/client.js"}
+15:47:37.202 [qtp879397446-23] INFO  io.pedestal.http - {:line 78, :msg "POST /home/uploadquiz"}
+15:48:04.514 [qtp879397446-16] INFO  io.pedestal.http - {:line 78, :msg "POST /home/showquiz"}
+15:48:07.095 [qtp879397446-19] INFO  io.pedestal.http - {:line 78, :msg "POST /home/uploadquiz"}
+15:48:20.487 [qtp879397446-20] INFO  io.pedestal.http - {:line 78, :msg "POST /home/uploadquiz/getfile"}
+15:48:20.595 [qtp879397446-21] INFO  io.pedestal.http - {:line 78, :msg "GET /home"}
+15:48:25.535 [qtp879397446-22] INFO  io.pedestal.http - {:line 78, :msg "POST /home/showquiz"}
+15:48:28.215 [qtp879397446-23] INFO  io.pedestal.http - {:line 78, :msg "POST /home/showquiz"}
+15:48:32.154 [qtp879397446-16] INFO  io.pedestal.http - {:line 78, :msg "POST /home/uploadquiz"}
+15:49:00.770 [qtp879397446-19] INFO  io.pedestal.http - {:line 78, :msg "POST /home/uploadquiz/getfile"}
+15:49:00.786 [qtp879397446-20] INFO  io.pedestal.http - {:line 78, :msg "GET /home"}
+15:49:04.756 [qtp879397446-21] INFO  io.pedestal.http - {:line 78, :msg "POST /home/showquiz"}
+15:49:16.769 [qtp879397446-22] INFO  io.pedestal.http - {:line 78, :msg "POST /home/uploadquiz"}
+15:52:05.018 [main] INFO  org.eclipse.jetty.util.log - Logging initialized @14162ms
+15:52:05.184 [main] INFO  org.eclipse.jetty.server.Server - jetty-9.3.1.v20150714
+15:52:05.218 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@251ad030{/,null,AVAILABLE}
+15:52:05.246 [main] INFO  o.e.jetty.server.ServerConnector - Started ServerConnector@2bc239ff{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+15:52:05.246 [main] INFO  org.eclipse.jetty.server.Server - Started @14393ms
+15:52:11.803 [qtp407660388-21] INFO  io.pedestal.http - {:line 78, :msg "GET /"}
+15:52:13.372 [qtp407660388-22] INFO  io.pedestal.http - {:line 78, :msg "GET /register"}
+15:52:23.872 [qtp407660388-20] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-pass"}
+15:52:23.889 [qtp407660388-17] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-pass"}
+15:52:26.985 [qtp407660388-23] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-user"}
+15:52:27.657 [qtp407660388-19] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-user"}
+15:52:28.417 [qtp407660388-21] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-user"}
+15:52:28.768 [qtp407660388-22] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-user"}
+15:52:29.041 [qtp407660388-20] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-user"}
+15:52:31.478 [qtp407660388-17] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-user"}
+15:52:31.561 [qtp407660388-23] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-user"}
+15:52:31.761 [qtp407660388-19] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-user"}
+15:52:32.240 [qtp407660388-21] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-pass"}
+15:52:33.465 [qtp407660388-22] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-pass"}
+15:52:33.520 [qtp407660388-20] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-pass"}
+15:52:35.882 [qtp407660388-17] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-user"}
+15:52:36.105 [qtp407660388-23] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-user"}
+15:52:37.473 [qtp407660388-19] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-pass"}
+15:52:37.977 [qtp407660388-21] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-pass"}
+15:52:38.024 [qtp407660388-22] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-pass"}
+15:52:38.361 [qtp407660388-20] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-pass"}
+15:52:38.697 [qtp407660388-17] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-pass"}
+15:52:38.897 [qtp407660388-23] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-pass"}
+15:52:39.385 [qtp407660388-19] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-pass"}
+15:52:39.625 [qtp407660388-21] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-pass"}
+15:52:39.953 [qtp407660388-22] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-pass"}
+15:52:40.225 [qtp407660388-20] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-pass"}
+15:52:40.457 [qtp407660388-17] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-pass"}
+15:52:40.666 [qtp407660388-23] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-pass"}
+15:52:40.865 [qtp407660388-19] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-pass"}
+15:52:41.377 [qtp407660388-21] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-pass"}
+15:52:41.385 [qtp407660388-22] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-pass"}
+15:52:42.425 [qtp407660388-20] INFO  io.pedestal.http - {:line 78, :msg "POST /register"}
+15:52:42.529 [qtp407660388-17] INFO  io.pedestal.http - {:line 78, :msg "GET /login"}
+15:52:56.544 [qtp407660388-23] INFO  io.pedestal.http - {:line 78, :msg "GET /google"}
+15:52:57.954 [qtp407660388-22] INFO  io.pedestal.http - {:line 78, :msg "GET /home"}
+15:53:02.524 [qtp407660388-20] INFO  io.pedestal.http - {:line 78, :msg "POST /home/getgrade"}
+15:53:05.806 [qtp407660388-21] INFO  io.pedestal.http - {:line 78, :msg "POST /home/showquiz"}
+15:53:18.259 [qtp407660388-23] INFO  io.pedestal.http - {:line 78, :msg "POST /home/submit-grades"}
+15:53:20.867 [qtp407660388-22] INFO  io.pedestal.http - {:line 78, :msg "POST /home/getgrade"}
+15:53:22.237 [qtp407660388-17] INFO  io.pedestal.http - {:line 78, :msg "POST /home/uploadquiz"}
+15:53:44.261 [qtp407660388-20] INFO  io.pedestal.http - {:line 78, :msg "POST /home/uploadquiz/getfile"}
+15:53:44.331 [qtp407660388-21] INFO  io.pedestal.http - {:line 78, :msg "GET /home"}
+15:53:46.547 [qtp407660388-23] INFO  io.pedestal.http - {:line 78, :msg "POST /home/showquiz"}
+15:53:57.828 [qtp407660388-22] INFO  io.pedestal.http - {:line 78, :msg "POST /home/submit-grades"}
+15:54:00.053 [qtp407660388-17] INFO  io.pedestal.http - {:line 78, :msg "POST /home/uploadquiz"}
+15:54:01.806 [qtp407660388-19] INFO  io.pedestal.http - {:line 78, :msg "POST /home/getgrade"}
+15:54:04.848 [qtp407660388-20] INFO  io.pedestal.http - {:line 78, :msg "GET /logout"}
+15:54:04.855 [qtp407660388-21] INFO  io.pedestal.http - {:line 78, :msg "GET /login"}
+15:54:26.795 [qtp407660388-23] INFO  io.pedestal.http - {:line 78, :msg "POST /login"}
+15:54:26.882 [qtp407660388-22] INFO  io.pedestal.http - {:line 78, :msg "GET /home"}
+15:54:28.975 [qtp407660388-17] INFO  io.pedestal.http - {:line 78, :msg "POST /home/getgrade"}
+15:54:46.810 [qtp407660388-19] INFO  io.pedestal.http - {:line 78, :msg "POST /home/showquiz"}
+15:54:48.909 [qtp407660388-20] INFO  io.pedestal.http - {:line 78, :msg "POST /home/getgrade"}
+15:54:49.628 [qtp407660388-21] INFO  io.pedestal.http - {:line 78, :msg "POST /home/uploadquiz"}
+15:55:13.485 [qtp407660388-23] INFO  io.pedestal.http - {:line 78, :msg "GET /logout"}
+15:55:13.495 [qtp407660388-22] INFO  io.pedestal.http - {:line 78, :msg "GET /login"}
+15:55:23.489 [qtp407660388-17] INFO  io.pedestal.http - {:line 78, :msg "GET /google"}
+15:55:24.208 [qtp407660388-20] INFO  io.pedestal.http - {:line 78, :msg "GET /home"}
+15:55:26.256 [qtp407660388-21] INFO  io.pedestal.http - {:line 78, :msg "GET /logout"}
+15:55:26.264 [qtp407660388-23] INFO  io.pedestal.http - {:line 78, :msg "GET /login"}
+15:55:32.346 [qtp407660388-22] INFO  io.pedestal.http - {:line 78, :msg "GET /google"}
+15:55:32.954 [qtp407660388-16] INFO  io.pedestal.http - {:line 78, :msg "GET /home"}
+15:55:35.512 [qtp407660388-17] INFO  io.pedestal.http - {:line 78, :msg "GET /logout"}
+15:55:35.519 [qtp407660388-21] INFO  io.pedestal.http - {:line 78, :msg "GET /login"}
+15:55:56.352 [qtp407660388-22] INFO  io.pedestal.http - {:line 78, :msg "GET /google"}
+15:55:57.113 [qtp407660388-19] INFO  io.pedestal.http - {:line 78, :msg "GET /home"}
+15:55:57.188 [qtp407660388-23] INFO  io.pedestal.http - {:line 78, :msg "GET /js/client.js"}
+15:56:01.965 [qtp407660388-17] INFO  io.pedestal.http - {:line 78, :msg "GET /logout"}
+15:56:01.971 [qtp407660388-21] INFO  io.pedestal.http - {:line 78, :msg "GET /login"}
+16:40:13.453 [qtp407660388-20] INFO  io.pedestal.http - {:line 78, :msg "GET /login"}
+16:40:15.101 [qtp407660388-22] INFO  io.pedestal.http - {:line 78, :msg "GET /"}
+16:40:15.138 [qtp407660388-17] INFO  io.pedestal.http - {:line 78, :msg "GET /images/image1.jpg"}
+16:40:16.135 [qtp407660388-21] INFO  io.pedestal.http - {:line 78, :msg "GET /login"}
+16:40:25.014 [qtp407660388-19] INFO  io.pedestal.http - {:line 78, :msg "POST /login"}
+16:40:25.106 [qtp407660388-20] INFO  io.pedestal.http - {:line 78, :msg "GET /home"}
+16:40:25.193 [qtp407660388-17] INFO  io.pedestal.http - {:line 78, :msg "GET /js/client.js"}
+16:40:32.382 [qtp407660388-21] INFO  io.pedestal.http - {:line 78, :msg "POST /home/getgrade"}
+16:40:34.252 [qtp407660388-23] INFO  io.pedestal.http - {:line 78, :msg "POST /home/uploadquiz"}
+16:40:36.806 [qtp407660388-22] INFO  io.pedestal.http - {:line 78, :msg "POST /home/getgrade"}
+16:40:41.613 [qtp407660388-19] INFO  io.pedestal.http - {:line 78, :msg "POST /home/uploadquiz"}
+16:40:43.180 [qtp407660388-20] INFO  io.pedestal.http - {:line 78, :msg "POST /home/getgrade"}
+16:47:31.602 [main] INFO  org.eclipse.jetty.util.log - Logging initialized @13998ms
+16:47:31.776 [main] INFO  org.eclipse.jetty.server.Server - jetty-9.3.1.v20150714
+16:47:31.806 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@2e703a4c{/,null,AVAILABLE}
+16:47:31.837 [main] INFO  o.e.jetty.server.ServerConnector - Started ServerConnector@403529fb{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+16:47:31.838 [main] INFO  org.eclipse.jetty.server.Server - Started @14238ms
+16:47:40.963 [qtp1993507846-19] INFO  io.pedestal.http - {:line 78, :msg "GET /home"}
+16:47:41.256 [qtp1993507846-19] INFO  io.pedestal.http - {:line 78, :msg "GET /login"}
+16:47:53.477 [qtp1993507846-21] INFO  io.pedestal.http - {:line 78, :msg "GET /google"}
+16:47:54.590 [qtp1993507846-17] INFO  io.pedestal.http - {:line 78, :msg "GET /home"}
+16:48:00.333 [qtp1993507846-16] INFO  io.pedestal.http - {:line 78, :msg "POST /home/showquiz"}
+16:48:03.064 [qtp1993507846-19] INFO  io.pedestal.http - {:line 78, :msg "POST /home/showquiz"}
+16:48:05.844 [qtp1993507846-20] INFO  io.pedestal.http - {:line 78, :msg "POST /home/showquiz"}
+16:48:06.429 [qtp1993507846-23] INFO  io.pedestal.http - {:line 78, :msg "POST /home/uploadquiz"}
+16:48:14.644 [qtp1993507846-21] INFO  io.pedestal.http - {:line 78, :msg "POST /home/uploadquiz"}
+16:48:15.394 [qtp1993507846-17] INFO  io.pedestal.http - {:line 78, :msg "POST /home/getgrade"}
+16:48:18.745 [qtp1993507846-16] INFO  io.pedestal.http - {:line 78, :msg "POST /home/showquiz"}
+16:48:21.397 [qtp1993507846-19] INFO  io.pedestal.http - {:line 78, :msg "POST /home/showquiz"}
+16:48:23.017 [qtp1993507846-20] INFO  io.pedestal.http - {:line 78, :msg "POST /home/showquiz"}
+16:48:23.539 [qtp1993507846-23] INFO  io.pedestal.http - {:line 78, :msg "POST /home/getgrade"}
+16:48:25.325 [qtp1993507846-21] INFO  io.pedestal.http - {:line 78, :msg "POST /home/uploadquiz"}
+16:48:46.405 [qtp1993507846-17] INFO  io.pedestal.http - {:line 78, :msg "GET /logout"}
+16:48:46.413 [qtp1993507846-16] INFO  io.pedestal.http - {:line 78, :msg "GET /login"}
+16:49:46.262 [main] INFO  org.eclipse.jetty.util.log - Logging initialized @14166ms
+16:49:46.441 [main] INFO  org.eclipse.jetty.server.Server - jetty-9.3.1.v20150714
+16:49:46.479 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@5d98fa9f{/,null,AVAILABLE}
+16:49:46.522 [main] INFO  o.e.jetty.server.ServerConnector - Started ServerConnector@55e9ee7e{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+16:49:46.523 [main] INFO  org.eclipse.jetty.server.Server - Started @14431ms
+16:49:52.892 [qtp224306574-21] INFO  io.pedestal.http - {:line 78, :msg "GET /login"}
+16:50:05.634 [qtp224306574-17] INFO  io.pedestal.http - {:line 78, :msg "POST /login"}
+16:50:05.800 [qtp224306574-21] INFO  io.pedestal.http - {:line 78, :msg "GET /home"}
+16:50:07.662 [qtp224306574-20] INFO  io.pedestal.http - {:line 78, :msg "POST /home/getgrade"}
+16:50:09.241 [qtp224306574-22] INFO  io.pedestal.http - {:line 78, :msg "POST /home/uploadquiz"}
+16:51:06.353 [main] INFO  org.eclipse.jetty.util.log - Logging initialized @14259ms
+16:51:06.527 [main] INFO  org.eclipse.jetty.server.Server - jetty-9.3.1.v20150714
+16:51:06.558 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@2e703a4c{/,null,AVAILABLE}
+16:51:06.591 [main] INFO  o.e.jetty.server.ServerConnector - Started ServerConnector@403529fb{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+16:51:06.592 [main] INFO  org.eclipse.jetty.server.Server - Started @14502ms
+16:51:10.602 [qtp1993507846-21] INFO  io.pedestal.http - {:line 78, :msg "GET /home"}
+16:51:10.886 [qtp1993507846-21] INFO  io.pedestal.http - {:line 78, :msg "GET /login"}
+16:51:16.806 [qtp1993507846-22] INFO  io.pedestal.http - {:line 78, :msg "GET /"}
+16:51:18.093 [qtp1993507846-23] INFO  io.pedestal.http - {:line 78, :msg "GET /register"}
+16:51:20.417 [qtp1993507846-17] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-user"}
+16:51:20.560 [qtp1993507846-21] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-user"}
+16:51:20.716 [qtp1993507846-22] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-user"}
+16:51:20.812 [qtp1993507846-19] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-user"}
+16:51:21.036 [qtp1993507846-16] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-user"}
+16:51:21.564 [qtp1993507846-20] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-pass"}
+16:51:22.316 [qtp1993507846-17] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-pass"}
+16:51:22.362 [qtp1993507846-21] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-pass"}
+16:51:24.060 [qtp1993507846-22] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-pass"}
+16:51:24.123 [qtp1993507846-19] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-pass"}
+16:51:25.540 [qtp1993507846-16] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-pass"}
+16:51:25.605 [qtp1993507846-20] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-pass"}
+16:51:25.908 [qtp1993507846-17] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-pass"}
+16:51:26.252 [qtp1993507846-21] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-pass"}
+16:51:26.428 [qtp1993507846-22] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-pass"}
+16:51:26.708 [qtp1993507846-19] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-pass"}
+16:51:26.908 [qtp1993507846-16] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-pass"}
+16:51:27.116 [qtp1993507846-20] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-pass"}
+16:51:27.412 [qtp1993507846-17] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-pass"}
+16:51:27.564 [qtp1993507846-21] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-pass"}
+16:51:27.772 [qtp1993507846-22] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-pass"}
+16:51:27.988 [qtp1993507846-19] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-pass"}
+16:51:28.588 [qtp1993507846-16] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-pass"}
+16:51:28.644 [qtp1993507846-20] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-pass"}
+16:51:29.841 [qtp1993507846-17] INFO  io.pedestal.http - {:line 78, :msg "POST /register"}
+16:51:30.095 [qtp1993507846-21] INFO  io.pedestal.http - {:line 78, :msg "GET /login"}
+16:51:38.471 [qtp1993507846-22] INFO  io.pedestal.http - {:line 78, :msg "POST /login"}
+16:51:38.591 [qtp1993507846-19] INFO  io.pedestal.http - {:line 78, :msg "GET /home"}
+16:51:41.837 [qtp1993507846-16] INFO  io.pedestal.http - {:line 78, :msg "POST /home/uploadquiz"}
+16:51:47.695 [qtp1993507846-17] INFO  io.pedestal.http - {:line 78, :msg "POST /home/uploadquiz/getfile"}
+16:51:47.767 [qtp1993507846-21] INFO  io.pedestal.http - {:line 78, :msg "GET /home"}
+16:51:50.105 [qtp1993507846-22] INFO  io.pedestal.http - {:line 78, :msg "POST /home/showquiz"}
+16:51:53.007 [qtp1993507846-19] INFO  io.pedestal.http - {:line 78, :msg "GET /logout"}
+16:51:53.018 [qtp1993507846-16] INFO  io.pedestal.http - {:line 78, :msg "GET /login"}
+16:52:12.056 [qtp1993507846-20] INFO  io.pedestal.http - {:line 78, :msg "GET /google"}
+16:52:12.715 [qtp1993507846-21] INFO  io.pedestal.http - {:line 78, :msg "GET /home"}
+16:52:12.824 [qtp1993507846-22] INFO  io.pedestal.http - {:line 78, :msg "GET /js/client.js"}
+16:52:19.034 [qtp1993507846-19] INFO  io.pedestal.http - {:line 78, :msg "POST /home/getgrade"}
+16:52:20.366 [qtp1993507846-16] INFO  io.pedestal.http - {:line 78, :msg "POST /home/uploadquiz"}
+16:52:22.717 [qtp1993507846-23] INFO  io.pedestal.http - {:line 78, :msg "GET /logout"}
+16:52:22.723 [qtp1993507846-21] INFO  io.pedestal.http - {:line 78, :msg "GET /login"}
+16:52:29.315 [qtp1993507846-19] INFO  io.pedestal.http - {:line 78, :msg "GET /"}
+16:52:29.366 [qtp1993507846-17] INFO  io.pedestal.http - {:line 78, :msg "GET /images/image1.jpg"}
+17:17:34.023 [qtp1993507846-16] INFO  io.pedestal.http - {:line 78, :msg "GET /"}
+17:17:34.054 [qtp1993507846-17] INFO  io.pedestal.http - {:line 78, :msg "GET /images/image1.jpg"}
+17:17:46.223 [qtp1993507846-20] INFO  io.pedestal.http - {:line 78, :msg "GET /register"}
+17:17:46.274 [qtp1993507846-21] INFO  io.pedestal.http - {:line 78, :msg "GET /js/client.js"}
+17:17:47.462 [qtp1993507846-22] INFO  io.pedestal.http - {:line 78, :msg "GET /"}
+17:17:49.238 [qtp1993507846-16] INFO  io.pedestal.http - {:line 78, :msg "GET /login"}
+17:17:50.166 [qtp1993507846-23] INFO  io.pedestal.http - {:line 78, :msg "GET /"}
+17:17:52.928 [qtp1993507846-17] INFO  io.pedestal.http - {:line 78, :msg "GET /register"}
+17:17:54.401 [qtp1993507846-20] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-user"}
+17:17:55.708 [qtp1993507846-21] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-user"}
+17:17:56.917 [qtp1993507846-22] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-user"}
+17:17:57.788 [qtp1993507846-16] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-user"}
+17:18:08.893 [qtp1993507846-23] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-pass"}
+17:18:09.012 [qtp1993507846-17] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-pass"}
+17:18:09.124 [qtp1993507846-20] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-pass"}
+17:18:09.141 [qtp1993507846-21] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-pass"}
+17:18:10.317 [qtp1993507846-22] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-pass"}
+17:18:11.524 [qtp1993507846-16] INFO  io.pedestal.http - {:line 78, :msg "GET /"}
+17:20:09.977 [qtp1993507846-22] INFO  io.pedestal.http - {:line 78, :msg "GET /register"}
+17:20:11.198 [qtp1993507846-23] INFO  io.pedestal.http - {:line 78, :msg "GET /"}
+17:22:22.283 [qtp1993507846-21] INFO  io.pedestal.http - {:line 78, :msg "GET /register"}
+17:22:25.170 [qtp1993507846-22] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-user"}
+17:22:25.461 [qtp1993507846-16] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-user"}
+17:22:25.764 [qtp1993507846-23] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-user"}
+17:22:26.636 [qtp1993507846-20] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-pass"}
+17:22:27.973 [qtp1993507846-19] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-pass"}
+17:22:28.044 [qtp1993507846-21] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-pass"}
+17:22:28.116 [qtp1993507846-22] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-pass"}
+17:22:28.196 [qtp1993507846-16] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-pass"}
+17:22:28.204 [qtp1993507846-23] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-pass"}
+17:22:28.215 [qtp1993507846-20] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-pass"}
+17:22:28.259 [qtp1993507846-19] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-pass"}
+17:22:28.307 [qtp1993507846-21] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-pass"}
+17:22:29.133 [qtp1993507846-22] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-pass"}
+17:22:29.196 [qtp1993507846-16] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-pass"}
+17:22:29.740 [qtp1993507846-23] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-pass"}
+17:22:29.868 [qtp1993507846-20] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-pass"}
+17:22:30.140 [qtp1993507846-19] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-pass"}
+17:22:31.037 [qtp1993507846-21] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-pass"}
+17:22:31.084 [qtp1993507846-22] INFO  io.pedestal.http - {:line 78, :msg "POST /register/eval-pass"}
+17:22:32.583 [qtp1993507846-16] INFO  io.pedestal.http - {:line 78, :msg "POST /register"}
+17:22:32.629 [qtp1993507846-23] INFO  io.pedestal.http - {:line 78, :msg "GET /login"}
+17:22:47.101 [qtp1993507846-20] INFO  io.pedestal.http - {:line 78, :msg "POST /login"}
+17:22:47.190 [qtp1993507846-19] INFO  io.pedestal.http - {:line 78, :msg "GET /home"}
+17:22:52.303 [qtp1993507846-21] INFO  io.pedestal.http - {:line 78, :msg "POST /home/getgrade"}
+17:22:56.483 [qtp1993507846-22] INFO  io.pedestal.http - {:line 78, :msg "POST /home/uploadquiz"}
+17:22:58.321 [qtp1993507846-16] INFO  io.pedestal.http - {:line 78, :msg "POST /home/getgrade"}
+17:22:59.021 [qtp1993507846-23] INFO  io.pedestal.http - {:line 78, :msg "POST /home/uploadquiz"}
+17:23:04.072 [qtp1993507846-20] INFO  io.pedestal.http - {:line 78, :msg "POST /home/uploadquiz/getfile"}
+17:23:04.081 [qtp1993507846-19] INFO  io.pedestal.http - {:line 78, :msg "GET /home"}
+17:23:09.279 [qtp1993507846-21] INFO  io.pedestal.http - {:line 78, :msg "POST /home/uploadquiz"}
+17:23:13.226 [qtp1993507846-22] INFO  io.pedestal.http - {:line 78, :msg "POST /home/uploadquiz/getfile"}
+17:23:13.239 [qtp1993507846-16] INFO  io.pedestal.http - {:line 78, :msg "GET /home"}
+17:23:15.865 [qtp1993507846-23] INFO  io.pedestal.http - {:line 78, :msg "POST /home/showquiz"}
+17:23:49.830 [qtp1993507846-22] INFO  io.pedestal.http - {:line 78, :msg "POST /home/submit-grades"}
+17:23:51.732 [qtp1993507846-16] INFO  io.pedestal.http - {:line 78, :msg "POST /home/getgrade"}
+17:23:55.909 [qtp1993507846-23] INFO  io.pedestal.http - {:line 78, :msg "GET /logout"}
+17:23:55.914 [qtp1993507846-19] INFO  io.pedestal.http - {:line 78, :msg "GET /login"}
+17:24:11.069 [qtp1993507846-21] INFO  io.pedestal.http - {:line 78, :msg "GET /google"}
+17:24:11.916 [qtp1993507846-16] INFO  io.pedestal.http - {:line 78, :msg "GET /home"}
+17:24:21.437 [qtp1993507846-19] INFO  io.pedestal.http - {:line 78, :msg "POST /home/getgrade"}

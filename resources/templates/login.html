@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" class="welcome">
+  <head>
+    <title>Welcome to CS590</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+  </head>
+  <body>
+    <div align="middle">
+        <h1> Login Here </h1></br>
+    <h3><a href="/">Home</a></br>
+    <p style="color:red;">{{error}}</p></br>
+      <h2> Enter your username and password </h2>
+      <form id="loginform" method="post" action="login">
+          Username: <input id="username" type="text" name="userName" required/> <br/>
+          Password: <input id="password" type="password" name="userPassword" required/> <br/>
+          <input id="login-button" type="submit" name="Login" value="Login" class="btn btn-primary"/>
+      </form>
+    </div>
+    <a class="btn btn-block btn-social btn-lg btn-google" href="{{string}}"><i class="fa fa-google"></i>Sign in with <b>Google</b></a>
+  </body>
+</html>

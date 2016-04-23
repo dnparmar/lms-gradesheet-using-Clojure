@@ -1,0 +1,26 @@
+{
+	"title": "Quiz 3",
+	"exam-version": "0.1",
+	"exam-number": "3",
+	"program": [{
+		"q": "Write a clojure function that calculates the minimum value of a collection.",
+		"l": "p1",
+		"t": "textarea"
+	}],
+	"questions": [{
+		"q": "In the Pacific War of 1884, Bolivia lost its access to the Pacific ocean after being defeated by what country?",
+		"c": ["Chile", "Mexico", "Venezuela", "Brazil"],
+		"a": "Chile",
+		"l": "q1"
+	}, {
+		"q": "What U.S. state shares the longest border with a foreign country?",
+		"c": ["Texas", "New york", "Alaska", "New Mexico"],
+		"a": "Alaska",
+		"l": "q2"
+	}, {
+		"q": "Silver is the traditional gift for what numbered wedding anniversary?",
+		"c": ["25th", "26th", "27th", "28th"],
+		"a": "25th",
+		"l": "q3"
+	}]
+}

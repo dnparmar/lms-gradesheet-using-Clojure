@@ -1,0 +1,100 @@
+body {
+    font-family: sans-serif;
+}
+
+.form {
+    background: rgba(0,0,0,0.7);
+    padding: 40px;
+    max-width: 600px;
+    margin: 100px auto;
+    border-radius: 5px;
+}
+
+.tab-group{
+    list-style: none;
+    padding: 0px;
+    margin: 0 0 40px 0;
+}
+
+.tab-group li a{
+    display: block;
+    text-decoration: none;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background: #C0CAC6;
+    text-align: center;
+    width: 50%;
+    cursor: pointer;
+    font-size: 20px;
+    float: left;
+    color: white;
+}
+
+.tab-group .active a {
+    background: #008fd6;
+    color: white;
+}
+
+h3,h1 {
+    text-align: center;
+    font-size: 30px;
+    font-family: "Bookman";
+    font-weight: bold;
+    margin: 0 0 40px 0;
+}
+
+.tab-content {
+    padding-top: 35px;
+}
+
+label {
+    display: block;
+    color: #008FD6;
+    font-size: 22px;
+    font-family: "Bookman";
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+
+input {
+    font-size: 18px;
+    display: block;
+    color: #4C4C4C;
+    width: 100%;
+    padding: 5px 10px;
+    background: white;
+    border: 1px solid #FFFFFF;
+    height: 100%;
+    border-radius: 5px;
+}
+
+.button-block{
+  text-align: center;
+  padding-top: 10px;
+}
+
+button {
+    border: 0;
+    padding: 15px;
+    width: 30%;
+    font-size: 20px;
+    font-family: "Bookman";
+    background: #fc9c00;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.danger {
+    color: aquamarine;
+}
+
+span#password_err {
+    float: right;
+    color: palegreen;
+}
+
+span#email_err {
+    float: right;
+    color: palegreen;
+}

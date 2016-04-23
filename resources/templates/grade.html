@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+  <h2>Your grades</h2>
+  <table class="table table-hover">
+    <thead>
+      <tr>
+        <th>Quiz</th>
+        <th>Grade</th>
+          <th>CIN</th>
+          <th>Name</th>
+      </tr>
+    </thead>
+    <tbody>
+        {% for grade in grades %}
+        <tr>
+            <th> {{ grade.quiz }} </th>
+            <th> {{ grade.grade }} </th>
+             <th> {{ grade.cin }} </th>
+             <th> {{ grade.name }} </th>
+        </tr>
+        {% endfor %}
+    </tbody>
+  </table>
+</div>
+
+</body>
+</html>

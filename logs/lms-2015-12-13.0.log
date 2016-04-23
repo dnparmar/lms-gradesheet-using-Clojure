@@ -1,0 +1,9 @@
+00:49:08.135 [qtp1993507846-22] INFO  io.pedestal.http - {:line 78, :msg "POST /home/getgrade"}
+00:49:09.046 [qtp1993507846-16] INFO  io.pedestal.http - {:line 78, :msg "POST /home/uploadquiz"}
+00:49:15.171 [qtp1993507846-17] INFO  io.pedestal.http - {:line 78, :msg "POST /home/uploadquiz"}
+00:49:38.577 [qtp1993507846-19] INFO  io.pedestal.http - {:line 78, :msg "POST /home/uploadquiz/getfile"}
+00:49:38.599 [qtp1993507846-21] INFO  io.pedestal.http - {:line 78, :msg "GET /home"}
+00:49:38.715 [qtp1993507846-23] INFO  io.pedestal.http - {:line 78, :msg "GET /js/client.js"}
+00:49:42.598 [qtp1993507846-22] INFO  io.pedestal.http - {:line 78, :msg "POST /home/showquiz"}
+00:49:48.126 [qtp1993507846-16] INFO  io.pedestal.http - {:line 78, :msg "GET /logout"}
+00:49:48.135 [qtp1993507846-17] INFO  io.pedestal.http - {:line 78, :msg "GET /login"}
